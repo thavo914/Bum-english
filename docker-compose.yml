@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    container_name: nephew-study-app
+    ports:
+      - "3001:3000"
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - ./lessons:/app/lessons
+      - ./public:/app/public
+      - ./server.js:/app/server.js
+    restart: unless-stopped

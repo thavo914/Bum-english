@@ -1,0 +1,19 @@
+{
+  "name": "nephew-english-app",
+  "version": "1.0.0",
+  "description": "Interactive A1-A2 English Learning Hub for 14-year-old nephew",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.24.0",
+    "express": "^4.21.2",
+    "highlight.js": "^11.12.0",
+    "js-yaml": "^5.4.2",
+    "marked": "^18.0.11",
+    "ws": "^8.21.3"
+  }
+}

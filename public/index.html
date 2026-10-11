@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nephew English Hub | CEFR A1–A2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card: #131b2e;
+      --card-hover: #1c2742;
+      --border: #233054;
+      --accent: #38bdf8;
+      --accent-glow: rgba(56, 189, 248, 0.2);
+      --accent-purple: #a855f7;
+      --accent-green: #22c55e;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --star: #fbbf24;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      min-height: 100vh;
+      padding-bottom: 3rem;
+    }
+    header {
+      padding: 1.5rem 2rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(11, 15, 25, 0.8);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .brand {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #38bdf8, #a855f7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .badge {
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      padding: 0.35rem 0.9rem;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    main {
+      max-width: 1100px;
+      margin: 2.5rem auto;
+      padding: 0 1.5rem;
+    }
+    .hero {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .hero h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 2.8rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.8rem;
+    }
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.15rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .week-section {
+      margin-bottom: 3rem;
+    }
+    .week-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      color: #e2e8f0;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.25rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      padding: 1.4rem;
+      transition: all 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 8px 24px var(--accent-glow);
+      transform: translateY(-2px);
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0.8rem;
+    }
+    .card-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      line-height: 1.5;
+      margin-bottom: 1.2rem;
+    }
+    .btn-group {
+      display: flex;
+      gap: 0.6rem;
+    }
+    .btn {
+      flex: 1;
+      display: inline-block;
+      text-align: center;
+      padding: 0.6rem 0.8rem;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.88rem;
+      transition: background 0.2s;
+    }
+    .btn-primary {
+      background: #0284c7;
+      color: white;
+    }
+    .btn-primary:hover { background: #0369a1; }
+    .btn-secondary {
+      background: #233054;
+      color: #e2e8f0;
+    }
+    .btn-secondary:hover { background: #2e3e6b; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <span>🎮</span> Nephew English Hub
+    </div>
+    <div class="badge">CEFR A1–A2 • 14 Years Old</div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>Level Up Your English! 🚀</h1>
+      <p>30 minutes a day, 5 days a week. Learn words, master grammar rules, and chat with AI Buddy Leo.</p>
+    </div>
+
+    <!-- WEEK 1 -->
+    <section class="week-section">
+      <div class="week-title">⚡ Week 1: Myself, Tech & Gaming</div>
+      <div class="grid">
+        <div class="card">
+          <div>
+            <div class="card-header">
+              <div class="card-title">Day 1: Gamer Profile & Tech Setup</div>
+              <span style="color: var(--star)">⭐⭐⭐</span>
+            </div>
+            <p>5 gaming words and the verb "To Be" for introductions.</p>
+          </div>
+          <div class="btn-group">
+            <a href="/lessons/week-01-myself-tech-gaming/day-01/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
+            <a href="/lessons/week-01-myself-tech-gaming/day-01/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <div class="card-header">
+              <div class="card-title">Day 2: Gaming Gear & Gadgets</div>
+              <span style="color: var(--star)">⭐⭐⭐</span>
+            </div>
+            <p>Describe your headset, keyboard, and console with "have / has got".</p>
+          </div>
+          <div class="btn-group">
+            <a href="/lessons/week-01-myself-tech-gaming/day-02/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
+            <a href="/lessons/week-01-myself-tech-gaming/day-02/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <div class="card-header">
+              <div class="card-title">Day 3: Superpowers & What I Can Do</div>
+              <span style="color: var(--star)">⭐⭐⭐</span>
+            </div>
+            <p>Talk about hero abilities and gaming skills with "can / can't".</p>
+          </div>
+          <div class="btn-group">
+            <a href="/lessons/week-01-myself-tech-gaming/day-03/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
+            <a href="/lessons/week-01-myself-tech-gaming/day-03/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <div class="card-header">
+              <div class="card-title">Day 4: Daily Routine & Stream Time</div>
+              <span style="color: var(--star)">⭐⭐⭐</span>
+            </div>
+            <p>Express habits, YouTube time, and weekend routines in Present Simple.</p>
+          </div>
+          <div class="btn-group">
+            <a href="/lessons/week-01-myself-tech-gaming/day-04/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
+            <a href="/lessons/week-01-myself-tech-gaming/day-04/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <div class="card-header">
+              <div class="card-title">Day 5: Boss Battle & AI Voice Talk</div>
+              <span style="color: var(--star)">⭐⭐⭐</span>
+            </div>
+            <p>Weekly review quest and 10-minute voice chat mission with Leo.</p>
+          </div>
+          <div class="btn-group">
+            <a href="/lessons/week-01-myself-tech-gaming/day-05/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
+            <a href="/lessons/week-01-myself-tech-gaming/day-05/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WEEK 2 -->
+    <section class="week-section">
+      <div class="week-title">🎒 Week 2: School Life, Friends & Fun</div>
+      <div class="grid">
+        <div class="card">
+          <div>
+            <div class="card-header">
+              <div class="card-title">Day 1: My Squad & Best Friends</div>
+              <span style="color: var(--star)">⭐⭐⭐</span>
+            </div>
+            <p>Introduce classmates and friends with possessive adjectives (my, your, his, her).</p>
+          </div>
+          <div class="btn-group">
+            <a href="/lessons/week-02-school-life-friends/day-01/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
+            <a href="/lessons/week-02-school-life-friends/day-01/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <div class="card-header">
+              <div class="card-title">Day 2: Favorite Subjects & Hobbies</div>
+              <span style="color: var(--star)">⭐⭐⭐</span>
+            </div>
+            <p>Talk about school subjects and hobbies with "like / love / hate + V-ing".</p>
+          </div>
+          <div class="btn-group">
+            <a href="/lessons/week-02-school-life-friends/day-02/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
+            <a href="/lessons/week-02-school-life-friends/day-02/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <div class="card-header">
+              <div class="card-title">Day 3: Canteen Snacks & Bubble Tea</div>
+              <span style="color: var(--star)">⭐⭐⭐</span>
+            </div>
+            <p>Order food and snacks using "some" and "any" with countable/uncountable nouns.</p>
+          </div>
+          <div class="btn-group">
+            <a href="/lessons/week-02-school-life-friends/day-03/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
+            <a href="/lessons/week-02-school-life-friends/day-03/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <div class="card-header">
+              <div class="card-title">Day 4: What Are You Doing Now?</div>
+              <span style="color: var(--star)">⭐⭐⭐</span>
+            </div>
+            <p>Describe current actions and hangout moments with Present Continuous.</p>
+          </div>
+          <div class="btn-group">
+            <a href="/lessons/week-02-school-life-friends/day-04/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
+            <a href="/lessons/week-02-school-life-friends/day-04/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <div class="card-header">
+              <div class="card-title">Day 5: Weekend Hangout & Leo's Cafe Roleplay</div>
+              <span style="color: var(--star)">⭐⭐⭐</span>
+            </div>
+            <p>Weekly review challenge and real-time voice cafe order roleplay with Leo.</p>
+          </div>
+          <div class="btn-group">
+            <a href="/lessons/week-02-school-life-friends/day-05/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
+            <a href="/lessons/week-02-school-life-friends/day-05/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
