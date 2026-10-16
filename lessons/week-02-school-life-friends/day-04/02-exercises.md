@@ -1,80 +1,106 @@
 # Day 4: Interactive Exercises & AI Mission 🚀
 
-Practice describing actions in real-time!
+Hãy hoàn thành 4 thử thách dưới đây để thu thập trọn vẹn 3 Ngôi Sao (⭐⭐⭐) ngày hôm nay nhé!
 
 ---
 
-## Part 1: Action Vocabulary Match
+## Part 1: Word Match & Fill-in-the-Blank (Khởi Động Từ Vựng)
 
-Fill in the blanks with: `[ chatting | hanging out | studying | laughing | waiting ]`
+**Word Bank**: `[ streamer | homework | boss fight | usually | right now ]`
 
-1. Shh! Be quiet in the library, students are ____________.
-2. Why are you ____________? Did someone tell a funny joke?
-3. I am at the bus stop ____________ for bus number 14.
-4. On Sunday afternoons, my friends and I love ____________ at the mall.
-5. He is typing fast because he is ____________ with his gaming team.
-
----
-
-## Part 2: Present Continuous Builder
-
-Put the words in brackets into the correct Present Continuous form:
-
-1. Look! The teacher (walk) ____________ into the classroom.
-2. I (study) ____________ English right now.
-3. They (not play) ____________ football; they are relaxing.
-4. What (you / do) ____________ at the moment?
-5. My dog (sleep) ____________ on the floor.
+1. Duy ______ drinks a glass of warm milk before going to bed at 10 PM.
+2. Look at his health bar! He needs to dodge quickly to survive this difficult ______.
+3. Don't disturb Minh ______; he is focusing on his English exam.
+4. That popular tech ______ has over 2 million subscribers because of his PC build videos.
+5. Make sure you complete your math ______ before you turn on the gaming console.
 
 ---
 
-## Part 3: Mini-Translation
+## Part 2: Grammar Builder (Thử Thách Phân Biệt 2 Thì)
 
-Translate into natural English:
+*Chọn đáp án chính xác nhất để điền vào chỗ trống:*
 
-1. Bạn đang làm gì thế? - Mình đang học bài tiếng Anh.
-   👉 __________________________________________________
-2. Bọn mình đang tụ tập đi chơi ở căng tin.
-   👉 __________________________________________________
-3. Anh ấy đang chờ xe buýt trước cổng trường.
-   👉 __________________________________________________
+1. Nam usually ______ his homework at 7:30 PM before hopping on Discord with friends.  
+   - A. finish  
+   - B. finishes  
+   - C. finishing  
+   - D. is finish  
+
+2. Look at the stream! Phong ______ a boss fight in Elden Ring right now.  
+   - A. plays  
+   - B. is playing  
+   - C. played  
+   - D. play  
+
+3. My older brother ______ streams on YouTube every Saturday evening.  
+   - A. watch  
+   - B. watches  
+   - C. is watch  
+   - D. watching  
+
+4. Listen! Our coach ______ the winning tactics in the locker room right now.  
+   - A. explains  
+   - B. is explaining  
+   - C. explain  
+   - D. are explaining  
+
+5. I ______ my teeth and wash my face at 6:15 AM every morning.  
+   - A. brush  
+   - B. brushes  
+   - C. is brushing  
+   - D. am brush  
+
+---
+
+## Part 3: Mini-Translation (Thói Quen & Đang Hành Động)
+
+*Dịch 3 câu sau sang tiếng Anh (chú ý phân biệt thói quen và hành động đang diễn ra):*
+
+1. Nam thường hoàn thành bài tập về nhà lúc 7 giờ tối.  
+   👉 *Your translation*: __________________________________________________
+2. Nhìn kìa! Anh trai tôi đang chơi một trận đấu trùm ngay bây giờ.  
+   👉 *Your translation*: __________________________________________________
+3. Bạn thân của tôi luôn xem người phát trực tiếp (streamer) này vào mỗi tối thứ Bảy.  
+   👉 *Your translation*: __________________________________________________
 
 ---
 
 ## Part 4: AI Voice Mission with Leo 🎙️
 
-Open ChatGPT Voice Mode (or Gemini Live) and practice:
+Hôm nay hãy mở ChatGPT Voice Mode hoặc Gemini Live lên và chia sẻ về lịch trình của mình cùng Buddy Leo nhé!
 
-> **Your Mission Prompt**:  
-> *"Hey Leo! Call me on voice like a friend. Ask me: 'Hey, what are you doing right now? Where are you? Who are you with?' Let's talk in Present Continuous at A1-A2 level!"*
+> 💬 **Câu mở đầu gợi ý cho Bum**:  
+> *"Hey Leo! Today I'm practicing talking about my daily routine and what is happening right now. Ask me about my schedule!"*
 
-**Speaking Checklist**:
-- [ ] Say: *"I am [verb]-ing right now."*
-- [ ] Say what the people around you are doing.
+**Nhiệm vụ đàm thoại (Checklist)**:
+- [ ] Dùng từ **usually** để nói 1 thói quen của mình (*"I usually finish my homework at..."* hoặc *"I usually play games at..."*).
+- [ ] Miêu tả 1 việc đang diễn ra lúc này (*"Right now, I am chatting with you and practicing English."*).
+- [ ] Trả lời khi Leo hỏi: *"What does your best friend usually do after school?"* (nhớ chia động từ thêm -s/-es nhé!).
 
 ---
 
 <details>
-<summary>Click to reveal Answer Key 🔍</summary>
+<summary>👉 Nhấp vào đây để xem Đáp Án Chi Tiết (Answer Key) 🔍</summary>
 
 ### Part 1 Answers:
-1. studying
-2. laughing
-3. waiting
-4. hanging out
-5. chatting
+1. **usually**
+2. **boss fight**
+3. **right now**
+4. **streamer**
+5. **homework**
 
 ### Part 2 Answers:
-1. is walking
-2. am studying ('m studying)
-3. aren't playing (are not playing)
-4. are you doing
-5. is sleeping
+1. **B. finishes** *(Thói quen usually + chủ ngữ Nam số ít -> finishes)*
+2. **B. is playing** *(Dấu hiệu Look! + right now -> thì hiện tại tiếp diễn is playing)*
+3. **B. watches** *(Thói quen every Saturday + chủ ngữ My older brother số ít -> watches)*
+4. **B. is explaining** *(Dấu hiệu Listen! + right now + chủ ngữ Our coach số ít -> is explaining)*
+5. **A. brush** *(Chủ ngữ I -> động từ giữ nguyên mẫu brush)*
 
 ### Part 3 Suggested Translations:
-1. *What are you doing? - I am studying English.*
-2. *We are hanging out at the canteen.*
-3. *He is waiting for the bus in front of the school gate.*
+1. *Nam usually finishes his homework at 7:00 PM.*
+2. *Look! My older brother is playing a boss fight right now.*
+3. *My best friend always watches this streamer every Saturday night.*
+
 </details>
 
 ---

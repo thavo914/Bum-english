@@ -1,48 +1,54 @@
-# Day 4: What Are You Doing Right Now? 📱
+# Day 4: Stream Time: Daily Routine vs Live Action 🎙️⚡
 
-Today we learn how to talk about actions happening **right this second** using the **Present Continuous**!
+Hôm nay chúng ta sẽ giải quyết triệt để 2 bẫy thì phổ biến nhất trong tiếng Anh: **Thì Hiện Tại Đơn (Thói quen, lịch trình - đuôi -s/-es)** đối đầu trực diện với **Thì Hiện Tại Tiếp Diễn (Đang diễn ra ngay lúc nói - V-ing)**!
 
 ---
 
-## 1. Word Power (5 Action Words)
+## 1. Word Power (5 Words for Today)
 
 | Word | Pronunciation (IPA) | Vietnamese Meaning | Example Sentence |
 | :--- | :--- | :--- | :--- |
-| **chatting** | /ˈtʃæt.ɪŋ/ | đang nhắn tin / tán gẫu | *I am **chatting** with my squad on Discord.* |
-| **hanging out** | /ˌhæŋ.ɪŋ ˈaʊt/ | đang đi chơi / tụ tập vui vẻ | *We are **hanging out** at the park.* |
-| **studying** | /ˈstʌd.i.ɪŋ/ | đang học bài | *Huy is **studying** for his science test.* |
-| **laughing** | /ˈlɑːf.ɪŋ/ | đang cười lớn | *They are watching comedy and **laughing** hard.* |
-| **waiting** | /ˈweɪ.tɪŋ/ | đang chờ đợi | *She is **waiting** for the bus outside school.* |
+| **streamer** | /ˈstriː.mər/ | người phát sóng trực tiếp (game/nội dung) | *My favorite gaming **streamer** goes live every Friday night.* |
+| **homework** | /ˈhəʊm.wɜːk/ | bài tập về nhà | *Nam usually finishes his **homework** before 7:30 PM.* |
+| **boss fight** | /ˈbɒs faɪt/ | trận đấu trùm trong game | *He is struggling with an intense **boss fight** in Elden Ring.* |
+| **usually** | /ˈjuː.ʒu.ə.li/ | thường thường, theo thói quen | *I **usually** check Discord notifications after school.* |
+| **right now** | /raɪt naʊ/ | ngay bây giờ, lúc này | *Look! The team is winning the final round **right now**.* |
 
 ---
 
-## 2. Grammar Bite: Present Continuous (Hiện Tại Tiếp Diễn)
+## 2. Grammar Bite: Hiện Tại Đơn (-s/-es) vs Hiện Tại Tiếp Diễn (-ing) ⚡
 
-We use the **Present Continuous** for actions that are happening **right now** at the moment of speaking.
+Làm sao để biết khi nào chia đuôi **-s/-es** và khi nào chia **is/am/are + V-ing**? Hãy nhìn vào **tín hiệu thời gian**:
 
-### The Rule Formula:
-- **Subject** + **am / is / are** + **Verb-ing**
+### 1. Hiện Tại Đơn (Present Simple) -> Thói Quen, Lịch Trình Thường Ngày
+- **Dấu hiệu nhận biết**: *usually, always, often, every day, at 7:30 PM...*
+- **Công thức với He / She / Tên 1 người (Ngôi 3 số ít)**:
+  - **Subject + Verb-s / -es**
+  - Động từ kết thúc bằng đuôi *-sh, -ch, -x, -ss, -o*: thêm **-es**!
+    - *finish* -> **finishes**
+    - *watch* -> **watches**
+    - *go* -> **goes**
+  - *Nam usually **finishes** his homework at 7:30 PM before hopping on Discord.* ✅ *(Câu 2 bài Test!)*
+  - *Phong **plays** football every Tuesday.* ✅
 
-### Examples:
-- **I am** + playing (*I'm playing Minecraft right now.*)
-- **He / She** + **is** + eating (*He's eating pizza in the canteen.*)
-- **We / They / You** + **are** + chatting (*We're chatting online.*)
+### 2. Hiện Tại Tiếp Diễn (Present Continuous) -> Đang Xảy Ra Ngay Trước Mắt
+- **Dấu hiệu nhận biết**: *Look!, Listen!, right now, at the moment, currently...*
+- **Công thức**: **Subject + am / is / are + Verb-ing**
+  - *Look at the stream! Phong **is playing** a boss fight in Elden Ring **right now**.* ✅ *(Câu 3 bài Test!)*
+  - *Listen! Someone **is knocking** on the door.* ✅
+  - *We **are watching** the livestream together.* ✅
 
-### Negatives & Questions:
-- *I **am not** sleeping.*
-- *He **isn't** doing homework, he is gaming!*
-- *What **are you doing**?* -> *I'm waiting for my friend.*
-- *Are they watching YouTube?* -> *Yes, they are! / No, they aren't.*
-
-> 💡 **Comparison Clue**:
-> - Present Simple = Habits (*I usually play games at 6 PM.*)
-> - Present Continuous = Happening NOW (*I am playing a match right now!*)
+### ⚠️ Bảng Đối Chiếu Phá Bẫy Cực Nhanh:
+| Dấu hiệu trong câu | Thì cần chia | Ví dụ chuẩn | Tránh bẫy nhầm lẫn |
+| :--- | :--- | :--- | :--- |
+| **usually / every day** | Hiện tại đơn (thêm -s/-es cho số ít) | *Nam **finishes** his homework.* | ❌ *Nam finish* (Quên chia số ít!) |
+| **Look! / right now** | Hiện tại tiếp diễn (*is/are + V-ing*) | *Phong **is playing** right now.* | ❌ *Phong plays right now* (Quên V-ing!) |
 
 ---
 
-## 3. Mini-Dialogue: Phone Call 📞
+## 3. Mini-Dialogue: Discord Voice Chat 🎧
 
-- **Minh**: "Yo, Long! What are you doing right now?"
-- **Long**: "Hey! I'm **hanging out** with Tuan at the bubble tea shop. We're **chatting** and **laughing** at funny TikTok memes."
-- **Minh**: "Are you **studying** for the test tomorrow?"
-- **Long**: "Not yet! We're **waiting** for Bao to arrive with his notes."
+- **Huy**: "Yo Bum, are you free? Why aren't you on Discord yet?"
+- **Bum**: "Nam **usually finishes** his **homework** at 7:30 PM, but I'm still doing mine!"
+- **Huy**: "Hurry up! Look at YouTube, our favorite **streamer** **is streaming** an insane **boss fight** **right now**!"
+- **Bum**: "No way! I'm joining the voice call right away."

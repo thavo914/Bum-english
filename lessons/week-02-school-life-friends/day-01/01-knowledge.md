@@ -1,6 +1,6 @@
-# Day 1: My Squad & Best Friends 👫
+# Day 1: My Squad & Co-op Battles 🎮
 
-Welcome to Week 2! Today we learn how to describe our friends, classmates, and squad members in English.
+Hôm nay chúng ta sẽ học cách nói về biệt đội bạn thân, team chơi game hoặc đội bóng đá của mình, đồng thời làm chủ **quy tắc chủ ngữ ghép** để không bao giờ bị bẫy ngữ pháp đánh lừa nữa nhé!
 
 ---
 
@@ -8,37 +8,40 @@ Welcome to Week 2! Today we learn how to describe our friends, classmates, and s
 
 | Word | Pronunciation (IPA) | Vietnamese Meaning | Example Sentence |
 | :--- | :--- | :--- | :--- |
-| **classmate** | /ˈklɑːs.meɪt/ | bạn cùng lớp | *Nam is my **classmate** in Grade 8.* |
-| **best friend** | /ˌbest ˈfrend/ | bạn thân nhất | *My **best friend** always shares his snacks with me.* |
-| **funny** | /ˈfʌn.i/ | vui tính, hài hước | *He tells hilarious jokes; he is so **funny**.* |
-| **helpful** | /ˈhelp.fəl/ | hay giúp đỡ, tốt bụng | *Our teacher is very kind and **helpful**.* |
-| **squad** | /skwɒd/ | nhóm bạn thân, biệt đội | *My gaming **squad** has four members.* |
+| **teammate** | /ˈtiːm.meɪt/ | bạn cùng đội, đồng đội | *Nam is my best **teammate** in every football match.* |
+| **captain** | /ˈkæp.tɪn/ | đội trưởng | *Khoa is the **captain** of our school gaming team.* |
+| **support** | /səˈpɔːt/ | vị trí hỗ trợ, yểm trợ | *I usually play **support** in 3v3 battles to help my friends.* |
+| **squad** | /skwɒd/ | biệt đội, nhóm bạn thân | *My gaming **squad** has four members on Discord.* |
+| **victory** | /ˈvɪk.tər.i/ | chiến thắng, trận thắng | *Our team celebrated an epic 3–2 **victory** yesterday.* |
 
 ---
 
-## 2. Grammar Bite: Possessive Adjectives (Tính từ sở hữu)
+## 2. Grammar Bite: Compound Subjects & Verb Agreement (Chủ ngữ kép & Hòa hợp Động từ) ⚡
 
-We use possessive adjectives before a noun to show who owns or belongs to someone:
+Khi trong câu có 2 người cùng làm chủ ngữ và nối với nhau bằng chữ **and**, đó là **chủ ngữ số nhiều** (tương đương với *We* - Chúng tôi, hoặc *They* - Họ).
 
-| Subject Pronoun | Possessive Adjective | Example |
-| :--- | :--- | :--- |
-| **I** | **my** | *This is **my** best friend.* |
-| **You** | **your** | *What is **your** friend's name?* |
-| **He** | **his** | *Nam is cool. **His** avatar is a dragon.* |
-| **She** | **her** | *Lan is smart. **Her** favorite subject is Math.* |
-| **We** | **our** | *We are teammates. **Our** squad name is Titans.* |
-| **They** | **their** | *The boys are playing. **Their** backpacks are over there.* |
+### Cấu Trúc Slot-Filling:
+- **[Người thứ nhất] + and + I + ARE + [Danh từ / Tính từ]**
+  - *My older brother and I **are** big fans of Manchester United.* ✅  
+    *(Anh trai tôi và tôi là fan bự của MU -> 2 người = We nên dùng ARE!)*
+  - *Nam and I **are** ready for the boss fight.* ✅  
+    *(Nam và tôi đã sẵn sàng cho trận đấu trùm.)*
 
-> 💡 **Watch out**:
-> - **his** = của anh ấy (cho con trai)
-> - **her** = của cô ấy (cho con gái)  
-> *Don't mix them up!*
+- **[Người thứ nhất] + and + [Người thứ hai] + Động từ nguyên mẫu (V)**
+  - *Duy and Phong **play** FC Mobile together every evening.* ✅
+  - *My best friend and I **practice** football every Saturday.* ✅
+
+### ⚠️ Bẫy Kinh Điển Cần Nhớ (Watch Out!):
+> 💡 **Cảnh giác bẫy chữ "I"**:  
+> Thấy chữ *I* đứng ngay trước chỗ trống, nhiều bạn theo thói quen vội vàng điền *am*. Nhớ kiểm tra xem phía trước có ai đi cùng chữ *and* không nhé!  
+> ❌ *My older brother and I **am** fans.* (Sai vì có cả anh trai nữa!)  
+> ✅ *My older brother and I **are** fans.* (Đúng chuẩn vì là 2 người = We!)
 
 ---
 
-## 3. Mini-Dialogue: Meeting at the Gate 🏫
+## 3. Mini-Dialogue: Building the Dream Team 🎧
 
-- **Phong**: "Hey Duy, who is that girl with the blue backpack?"
-- **Duy**: "That's Mai. She is my **classmate** and **best friend**."
-- **Phong**: "Is she in **your** science group?"
-- **Duy**: "Yes! She is super **helpful** and **funny**. She is in **our** school project team."
+- **Phong**: "Hey Bum, who is the **captain** of your football team this year?"
+- **Bum**: "Khoa is our **captain**. My best friend Duy and I **are** the main attackers!"
+- **Phong**: "Awesome! Is Nam in your **squad** too?"
+- **Bum**: "Yes, he plays **support**. Together, our team always fights for **victory**!"
