@@ -18,39 +18,39 @@
 My best friend and I ______ ready to enter the ranked match on Discord.
 - A. is
 - B. am
-- C. are
+- C. are b
 - D. be
 
 #### Question 2
 After school, Khoa usually ______ his math exercises before hopping on FC Mobile.
 - A. finish
-- B. finishes
+- B. finishes b
 - C. finishing
 - D. is finish
 
 #### Question 3
 Look at the screen! The red dragon ______ towards our castle right now!
 - A. flies
-- B. is flying
+- B. is flying b
 - C. flew
-- D. fly
+- D. fly 
 
 #### Question 4
 My older brother ______ a powerful gaming laptop with cool RGB lights.
 - A. have got
 - B. has got
 - C. is got
-- D. having
+- D. having b
 
 #### Question 5
 Huy is an amazing FPS player; he ______ aim and react super fast.
-- A. can
+- A. can b
 - B. can to
 - C. cans
 - D. is can
 
 #### Question 6
-Are there ______ spare controllers for the Nintendo Switch, or should I bring mine?
+Are there ______ spare controllers for the Nintendo Switch, or should I bring mine? none
 - A. some
 - B. any
 - C. much
@@ -59,29 +59,29 @@ Are there ______ spare controllers for the Nintendo Switch, or should I bring mi
 #### Question 7
 This new wireless mouse is much ______ than my heavy old mouse.
 - A. light
-- B. lighter
+- B. lighter b
 - C. lightest
 - D. more light
 
 #### Question 8
 Our school football squad trains every Thursday ______ 4:30 PM ______ the school pitch.
-- A. at / on
+- A. at / on 
 - B. on / at
 - C. in / on
-- D. at / in
+- D. at / in b
 
 #### Question 9
 Phong loves video games, but he ______ play on weekdays during exam week.
 - A. don't
 - B. doesn't
-- C. isn't
+- C. isn't b
 - D. hasn't
 
 #### Question 10
 Bum ______ 14 years old, and his in-game nickname is ShadowNinja.
 - A. has
 - B. is
-- C. are
+- C. are b
 - D. have
 
 ---
@@ -92,13 +92,13 @@ Bum ______ 14 years old, and his in-game nickname is ShadowNinja.
 #### Question 11
 I don't use my real photo online, so I set a cool anime ninja as my Discord ______.
 - A. battery
-- B. avatar
+- B. avatar b
 - C. timetable
 - D. screen
 
 #### Question 12
 My wireless gamepad ran out of ______ right in the middle of an intense boss fight!
-- A. battery
+- A. battery b
 - B. keyboard
 - C. volume
 - D. speed
@@ -106,13 +106,13 @@ My wireless gamepad ran out of ______ right in the middle of an intense boss fig
 #### Question 13
 In co-op games like Roblox and Minecraft, good ______ is much more important than playing solo.
 - A. homework
-- B. teamwork
+- B. teamwork b
 - C. routine
 - D. canteen
 
 #### Question 14
 Minh is our football team ______; he guides the tactics and encourages everyone.
-- A. captain
+- A. captain b
 - B. beginner
 - C. device
 - D. receipt
@@ -120,20 +120,20 @@ Minh is our football team ______; he guides the tactics and encourages everyone.
 #### Question 15
 Playing games on a 144Hz monitor feels super ______ without any stutter or lag.
 - A. noisy
-- B. smooth
+- B. smooth b
 - C. dark
 - D. boring
 
 #### Question 16
 During the 15-minute recess, students often rush to the school ______ to buy hot bread and cold milk.
 - A. cinema
-- B. canteen
+- B. canteen b
 - C. stadium
 - D. museum
 
 #### Question 17
 I usually listen to chill lo-fi music to ______ after a stressful school day.
-- A. relax
+- A. relax b
 - B. defeat
 - C. upgrade
 - D. break
@@ -141,19 +141,19 @@ I usually listen to chill lo-fi music to ______ after a stressful school day.
 #### Question 18
 A high-quality gaming ______ helps you hear enemy footsteps clearly and talk to teammates.
 - A. keyboard
-- B. headset
+- B. headset b
 - C. screen
 - D. timetable
 
 #### Question 19
 My dad gave me permission to ______ my PC RAM from 8GB to 16GB so games load faster.
-- A. upgrade
+- A. upgrade b
 - B. wake up
 - C. give up
 - D. turn on
 
 #### Question 20
-After winning the final match 3–2, our entire squad celebrated an epic ______.
+After winning the final match 3–2, our entire squad celebrated an epic ______. none
 - A. victory
 - B. defeat
 - C. homework
@@ -170,14 +170,14 @@ After winning the final match 3–2, our entire squad celebrated an epic ______.
 **Minh**: "Hey Bum, are you free to play Roblox this evening at 7:30 PM?"  
 **Bum**: "______"
 - A. Yes, I do.
-- B. Sounds great! Count me in.
+- B. Sounds great! Count me in. b
 - C. No, it is not my game.
 - D. I am 14 years old.
 
 #### Question 22
 **Tom**: "Your new wireless mouse looks awesome! How long does the battery last?"  
 **Bum**: "______"
-- A. About 50 hours on a single charge.
+- A. About 50 hours on a single charge.b
 - B. You are welcome.
 - C. It is on page 10.
 - D. I don't feel sick today.
@@ -186,14 +186,14 @@ After winning the final match 3–2, our entire squad celebrated an epic ______.
 **Sam**: "Can you play the goalkeeper position in our match this afternoon?"  
 **Bum**: "______"
 - A. No, I am not ready for dinner.
-- B. Yes, I can! I'm pretty fast at catching the ball.
+- B. Yes, I can! I'm pretty fast at catching the ball. b
 - C. Yes, I can to play.
 - D. I have a new ball.
 
 #### Question 24
 **Classmate**: "Would you like some crispy chicken nuggets?"  
 **Bum**: "______"
-- A. Thanks a lot! They smell delicious.
+- A. Thanks a lot! They smell delicious. b
 - B. No, there aren't any chicken.
 - C. Nice to meet you.
 - D. Yes, I am playing chicken.
@@ -201,7 +201,7 @@ After winning the final match 3–2, our entire squad celebrated an epic ______.
 #### Question 25
 **Leo**: "Let's meet at the milk tea shop near school this Saturday at 3:00 PM!"  
 **Bum**: "______"
-- A. Deal! See you there.
+- A. Deal! See you there.b
 - B. I am not a shop.
 - C. No, I have got a pen.
 - D. It is yesterday.
@@ -221,19 +221,19 @@ After winning the final match 3–2, our entire squad celebrated an epic ______.
 Who helped Bum with his English homework?
 - A. Duy
 - B. Nam
-- C. His older brother
+- C. His older brother b
 - D. His English teacher
 
 #### Question 27
 Why will Duy's game run smoothly without lag tonight?
 - A. He bought a brand-new gaming smartphone.
-- B. His new Wi-Fi router is much faster than his old one.
+- B. His new Wi-Fi router is much faster than his old one. b
 - C. He turned off all his computer notifications.
 - D. He is playing in the school computer lab.
 
 #### Question 28
 At what time will the squad hop online to play FC Mobile?
-- A. 5:00 PM
+- A. 5:00 PM b
 - B. 5:20 PM
 - C. 8:00 PM
 - D. 7:30 PM
@@ -254,14 +254,14 @@ At what time will the squad hop online to play FC Mobile?
 #### Question 29
 According to the announcement, what do students need to bring to the tournament?
 - A. Their own laptops and heavy screens
-- B. Nothing, all gaming PCs and gear are already provided
+- B. Nothing, all gaming PCs and gear are already provided b 
 - C. Extra cash to buy snacks and drinks
 - D. Textbooks and notebooks
 
 #### Question 30
 What can students enjoy during the 15-minute break?
 - A. A history presentation from Mr. Tuan
-- B. Free peach bubble tea and crispy snacks at the canteen booth
+- B. Free peach bubble tea and crispy snacks at the canteen booth b
 - C. A 3v3 football match on the pitch
 - D. A math quiz
 

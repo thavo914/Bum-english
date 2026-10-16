@@ -8,11 +8,11 @@ Hãy hoàn thành 4 thử thách dưới đây để thu thập trọn vẹn 3 N
 
 **Word Bank**: `[ teammate | captain | support | squad | victory ]`
 
-1. We need one more player to complete our 4-person gaming ______ for tonight's tournament.
-2. Hoang scored the winning goal and brought an exciting ______ to Class 8B.
-3. In League of Legends, I love playing ______ because I can heal and protect my friends.
-4. Minh is our team ______, so he gives instructions before the football match begins.
-5. Duy is not just my classmate; he is also a reliable ______ in every co-op game.
+1. We need one more player to complete our 4-person gaming ______ for tonight's tournament. b: teammate, c: squad
+2. Hoang scored the winning goal and brought an exciting ______ to Class 8B. b,c: victory
+3. In League of Legends, I love playing ______ because I can heal and protect my friends. b,c: support
+4. Minh is our team ______, so he gives instructions before the football match begins. b: , c:captain
+5. Duy is not just my classmate; he is also a reliable ______ in every co-op game. b:, c:teammate
 
 ---
 
@@ -20,11 +20,11 @@ Hãy hoàn thành 4 thử thách dưới đây để thu thập trọn vẹn 3 N
 
 *Chọn đáp án đúng trong ngoặc để hoàn thành câu:*
 
-1. My older brother and I *( am / is / are )* big fans of Manchester United.
-2. Nam and his cousin *( plays / play / is play )* Roblox on weekends.
-3. My best friend and I *( am / are / is )* excited about the new Spider-Man movie.
-4. Duy and Khoa usually *( finish / finishes / finishing )* homework before hopping on Discord.
-5. In our science project, Lan and I *( am / is / are )* in charge of making the slides.
+1. My older brother and I *( am / is / are )* big fans of Manchester United. are
+2. Nam and his cousin *( plays / play / is play )* Roblox on weekends. play
+3. My best friend and I *( am / are / is )* excited about the new Spider-Man movie. are
+4. Duy and Khoa usually *( finish / finishes / finishing )* homework before hopping on Discord. finish
+5. In our science project, Lan and I *( am / is / are )* in charge of making the slides. are
 
 ---
 
@@ -33,11 +33,11 @@ Hãy hoàn thành 4 thử thách dưới đây để thu thập trọn vẹn 3 N
 *Dịch 3 câu sau sang tiếng Anh tự nhiên (chú ý chủ ngữ 2 người):*
 
 1. Anh trai tôi và tôi là những người chơi giỏi nhất trong biệt đội (squad) này.  
-   👉 *Your translation*: __________________________________________________
+   👉 *Your translation*: My brother and I are the best players in this squad
 2. Nam và tôi chơi bóng đá cùng nhau mỗi chiều thứ Bảy.  
-   👉 *Your translation*: __________________________________________________
+   👉 *Your translation*: Nam and I play football together every Saturday afternoon
 3. Đội trưởng và đồng đội của tôi luôn chiến đấu vì chiến thắng.  
-   👉 *Your translation*: __________________________________________________
+   👉 *Your translation*: My captain and teammate always fight for winning
 
 ---
 
