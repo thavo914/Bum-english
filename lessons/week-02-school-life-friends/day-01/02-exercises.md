@@ -1,80 +1,82 @@
 # Day 1: Interactive Exercises & AI Mission 🚀
 
-Practice talking about your friends and squad!
+Hãy hoàn thành 4 thử thách dưới đây để thu thập trọn vẹn 3 Ngôi Sao (⭐⭐⭐) ngày hôm nay nhé!
 
 ---
 
-## Part 1: Word Match & Sentences
+## Part 1: Word Match & Fill-in-the-Blank (Khởi Động Từ Vựng)
 
-Choose the correct word: `[ classmate | best friend | funny | helpful | squad ]`
+**Word Bank**: `[ teammate | captain | support | squad | victory ]`
 
-1. A person who is in the same school class as you: ____________.
-2. Someone who makes everyone laugh with great jokes: ____________.
-3. My close group of 4 gaming buddies: my ____________.
-4. When I don't understand math homework, Minh is always ____________.
-5. The friend you trust and spend the most time with: your ____________.
-
----
-
-## Part 2: Choose the Correct Possessive Adjective
-
-Fill in: `[ my | his | her | our | their ]`
-
-1. Huy has a new bicycle. ______ bicycle is blue.
-2. Linh is studying for ______ English exam.
-3. I love playing football with ______ brother.
-4. We are in the same classroom. ______ classroom is on the 2nd floor.
-5. The students left ______ books on the table.
+1. We need one more player to complete our 4-person gaming ______ for tonight's tournament.
+2. Hoang scored the winning goal and brought an exciting ______ to Class 8B.
+3. In League of Legends, I love playing ______ because I can heal and protect my friends.
+4. Minh is our team ______, so he gives instructions before the football match begins.
+5. Duy is not just my classmate; he is also a reliable ______ in every co-op game.
 
 ---
 
-## Part 3: Mini-Translation
+## Part 2: Grammar Builder (Phá Bẫy Chủ Ngữ Kép)
 
-Translate into natural English:
+*Chọn đáp án đúng trong ngoặc để hoàn thành câu:*
 
-1. Bạn thân nhất của mình rất hài hước và tốt bụng.
-   👉 __________________________________________________
-2. Tên của bạn cùng lớp của bạn là gì?
-   👉 __________________________________________________
-3. Biệt đội của chúng mình có 5 thành viên.
-   👉 __________________________________________________
+1. My older brother and I *( am / is / are )* big fans of Manchester United.
+2. Nam and his cousin *( plays / play / is play )* Roblox on weekends.
+3. My best friend and I *( am / are / is )* excited about the new Spider-Man movie.
+4. Duy and Khoa usually *( finish / finishes / finishing )* homework before hopping on Discord.
+5. In our science project, Lan and I *( am / is / are )* in charge of making the slides.
+
+---
+
+## Part 3: Mini-Translation (Thử Thách Dịch Nhanh Tuổi Teen)
+
+*Dịch 3 câu sau sang tiếng Anh tự nhiên (chú ý chủ ngữ 2 người):*
+
+1. Anh trai tôi và tôi là những người chơi giỏi nhất trong biệt đội (squad) này.  
+   👉 *Your translation*: __________________________________________________
+2. Nam và tôi chơi bóng đá cùng nhau mỗi chiều thứ Bảy.  
+   👉 *Your translation*: __________________________________________________
+3. Đội trưởng và đồng đội của tôi luôn chiến đấu vì chiến thắng.  
+   👉 *Your translation*: __________________________________________________
 
 ---
 
 ## Part 4: AI Voice Mission with Leo 🎙️
 
-Open ChatGPT Voice Mode (or Gemini Live) and practice:
+Hôm nay hãy mở ChatGPT Voice Mode hoặc Gemini Live lên và trò chuyện 3–5 phút cùng Buddy Leo nhé!
 
-> **Your Mission Prompt**:  
-> *"Hey Leo! Today I am learning how to describe my friends and classmates. Ask me 3 questions about my best friend: their name, what they look like, and why they are fun to hang out with!"*
+> 💬 **Câu mở đầu gợi ý cho Bum**:  
+> *"Hey Leo! Today I'm learning about my squad and co-op games. Let me tell you about my best friend and me!"*
 
-**Speaking Checklist**:
-- [ ] Use *"His name is..."* or *"Her name is..."*
-- [ ] Use the words *"funny"* or *"helpful"*.
+**Nhiệm vụ đàm thoại (Checklist)**:
+- [ ] Giới thiệu ít nhất 1 người bạn trong squad của mình (*"My friend Nam and I are..."*).
+- [ ] Dùng từ *teammate*, *squad* hoặc *captain* trong khi nói.
+- [ ] Trả lời khi Leo hỏi: *"What games do you and your friends usually play together?"*
 
 ---
 
 <details>
-<summary>Click to reveal Answer Key 🔍</summary>
+<summary>👉 Nhấp vào đây để xem Đáp Án Chi Tiết (Answer Key) 🔍</summary>
 
 ### Part 1 Answers:
-1. classmate
-2. funny
-3. squad
-4. helpful
-5. best friend
+1. **squad**
+2. **victory**
+3. **support**
+4. **captain**
+5. **teammate**
 
 ### Part 2 Answers:
-1. His
-2. her
-3. my
-4. Our
-5. their
+1. **are** *(My older brother and I = 2 người / We -> dùng are)*
+2. **play** *(Nam and his cousin = 2 người / They -> động từ nguyên mẫu play)*
+3. **are** *(My best friend and I = We -> dùng are)*
+4. **finish** *(Duy and Khoa = They -> động từ nguyên mẫu finish, không thêm -es)*
+5. **are** *(Lan and I = We -> dùng are)*
 
 ### Part 3 Suggested Translations:
-1. *My best friend is very funny and helpful.*
-2. *What is your classmate's name?*
-3. *Our squad has five members.*
+1. *My older brother and I are the best players in this squad.*
+2. *Nam and I play football together every Saturday afternoon.*
+3. *My captain and teammates always fight for victory.*
+
 </details>
 
 ---

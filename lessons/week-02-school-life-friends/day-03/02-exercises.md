@@ -1,81 +1,84 @@
 # Day 3: Interactive Exercises & AI Mission 🚀
 
-Practice food words and master *some* vs *any*!
+Hãy hoàn thành 4 thử thách dưới đây để thu thập trọn vẹn 3 Ngôi Sao (⭐⭐⭐) ngày hôm nay nhé!
 
 ---
 
-## Part 1: Snack Words Fill-in
+## Part 1: Word Match & Fill-in-the-Blank (Khởi Động Từ Vựng)
 
-Fill in the blanks: `[ snack | pizza | bubble tea | delicious | canteen ]`
+**Word Bank**: `[ snack | canteen | crispy | bubble tea | delicious ]`
 
-1. The line at the school ____________ is very long today.
-2. I ordered a medium milk tea with black pearls, also known as ____________.
-3. My mom baked brownies yesterday; they smell ____________!
-4. What kind of ____________ do you eat while playing games?
-5. A slice of pepperoni ____________ is 25,000 VND.
-
----
-
-## Part 2: Some or Any?
-
-Fill in **some** or **any**:
-
-1. There are ____________ delicious sandwiches in the basket. (+)
-2. We haven't got ____________ cheese for the pizza. (-)
-3. Do you have ____________ snacks in your school bag? (?)
-4. Can I have ____________ cold water, please? (Request)
-5. He doesn't want ____________ sugar in his tea. (-)
+1. After football practice, we stopped by a shop to grab a cold cup of matcha ______.
+2. Students gather at the school ______ during break time to buy bread, ice cream, and juice.
+3. These potato chips are super fresh and ______; listen to that crunch!
+4. My mom packed a healthy ______ of sliced apples and biscuits for my afternoon break.
+5. This cheese hot dog with spicy sauce is so ______ that I finished it in two minutes.
 
 ---
 
-## Part 3: Mini-Translation (Ordering Food)
+## Part 2: Grammar Builder (Phá Bẫy SOME vs ANY)
 
-Translate into natural English:
+*Chọn giữa **some** hoặc **any** để điền vào chỗ trống:*
 
-1. Căng tin trường học bán rất nhiều đồ ăn ngon.
-   👉 __________________________________________________
-2. Bạn có trà sữa trân châu không?
-   👉 __________________________________________________
-3. Cho mình xin một ít khoai tây chiên được không?
-   👉 __________________________________________________
+1. Are there ______ good snacks left in the fridge, or should we go to the convenience store?
+2. I am so hungry, but there isn't ______ food in my backpack.
+3. My friend gave me ______ crispy french fries during recess.
+4. Do you have ______ cash on you to buy bubble tea?
+5. Would you like ______ cold orange juice? *(Lời mời lịch sự)*
+6. We didn't see ______ vacant tables at the school canteen.
+
+---
+
+## Part 3: Mini-Translation (Săn Đồ Ăn Vặt)
+
+*Dịch 3 câu sau sang tiếng Anh (chú ý chọn đúng some hay any):*
+
+1. Còn món ăn vặt ngon nào trong căng-tin không?  
+   👉 *Your translation*: __________________________________________________
+2. Tôi không có đồng tiền lẻ nào trong cặp sách.  
+   👉 *Your translation*: __________________________________________________
+3. Chúng tôi đã mua một ít gà giòn thơm ngon sau giờ học.  
+   👉 *Your translation*: __________________________________________________
 
 ---
 
 ## Part 4: AI Voice Mission with Leo 🎙️
 
-Open ChatGPT Voice Mode (or Gemini Live) and practice:
+Hôm nay hãy mở ChatGPT Voice Mode hoặc Gemini Live lên và đóng vai rủ Buddy Leo đi ăn vặt nhé!
 
-> **Your Mission Prompt**:  
-> *"Hey Leo! Pretend you are working at a bubble tea & snack shop. Greet me, ask me what I want to order, and ask if I want ice or sugar in my drink. Let's roleplay in simple English!"*
+> 💬 **Câu mở đầu gợi ý cho Bum**:  
+> *"Hey Leo! I'm starving after school. Let's pretend you run a school canteen or bubble tea shop. What delicious snacks have you got today?"*
 
-**Speaking Checklist**:
-- [ ] Say: *"Can I have some..., please?"*
-- [ ] Order your favorite drink (bubble tea, smoothie, etc.).
-- [ ] Say: *"Thank you! How much is it?"*
+**Nhiệm vụ đàm thoại (Checklist)**:
+- [ ] Hỏi Leo xem còn món gì không bằng câu hỏi với **any** (*"Have you got any bubble tea / pizza left?"*).
+- [ ] Đặt món sử dụng từ **some** (*"I would like some crispy chicken, please."*).
+- [ ] Khen món ăn bằng từ *delicious* hoặc *crispy*.
 
 ---
 
 <details>
-<summary>Click to reveal Answer Key 🔍</summary>
+<summary>👉 Nhấp vào đây để xem Đáp Án Chi Tiết (Answer Key) 🔍</summary>
 
 ### Part 1 Answers:
-1. canteen
-2. bubble tea
-3. delicious
-4. snack
-5. pizza
+1. **bubble tea**
+2. **canteen**
+3. **crispy**
+4. **snack**
+5. **delicious**
 
 ### Part 2 Answers:
-1. some
-2. any
-3. any
-4. some
-5. any
+1. **any** *(Câu hỏi nghi vấn -> dùng any)*
+2. **any** *(Câu phủ định có isn't -> dùng any)*
+3. **some** *(Câu khẳng định -> dùng some)*
+4. **any** *(Câu hỏi nghi vấn với Do you have...? -> dùng any)*
+5. **some** *(Lời mời lịch sự với Would you like...? -> dùng some)*
+6. **any** *(Câu phủ định có didn't -> dùng any)*
 
 ### Part 3 Suggested Translations:
-1. *The school canteen sells a lot of delicious food.*
-2. *Have you got any bubble tea?* (or *Do you have any bubble tea?*)
-3. *Can I have some French fries, please?* (or *Can I have some fries, please?*)
+1. *Are there any good snacks left in the canteen?*
+2. *I don't have any cash / coins in my school bag.*
+3. *We bought some delicious crispy chicken after school.*
+
 </details>
 
 ---

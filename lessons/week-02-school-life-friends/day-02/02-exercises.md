@@ -1,78 +1,106 @@
 # Day 2: Interactive Exercises & AI Mission 🚀
 
-Master school subjects and verb-ing patterns!
+Hãy hoàn thành 4 thử thách dưới đây để thu thập trọn vẹn 3 Ngôi Sao (⭐⭐⭐) ngày hôm nay nhé!
 
 ---
 
-## Part 1: School Subjects Word Association
+## Part 1: Word Match & Fill-in-the-Blank (Khởi Động Từ Vựng)
 
-Match the activity with the subject:
-1. Running 100 meters and playing soccer ── [ A ] Science
-2. Solving equations with x and y ── [ B ] Physical Education (PE)
-3. Mixing liquids and testing magnets ── [ C ] History
-4. Learning about kings and ancient battles ── [ D ] Mathematics
-5. Chatting with Leo and learning new words ── [ E ] English
+**Word Bank**: `[ upgrade | powerful | smooth | lightweight | device ]`
 
-Your answers: 1-____, 2-____, 3-____, 4-____, 5-____
-
----
-
-## Part 2: Complete with Verb-ing
-
-Turn the verb in brackets into the correct form:
-
-1. I like (play) ____________ football at break time.
-2. My sister loves (read) ____________ manga comic books.
-3. We hate (do) ____________ boring grammar homework.
-4. Do you enjoy (listen) ____________ to K-pop music?
-5. He hates (wake) ____________ up before 6 AM.
+1. This smartphone is super ______; it weighs only 160 grams and fits easily in my pocket.
+2. My dad decided to ______ our home Wi-Fi router so we don't get lag during online games.
+3. The gameplay is extremely ______ when you play on a 144Hz monitor.
+4. Don't plug too many ______ into the same power socket at once.
+5. An RTX graphics card makes your gaming PC much more ______ than an office computer.
 
 ---
 
-## Part 3: Mini-Translation
+## Part 2: Grammar Builder (Thử Thách So Sánh Hơn)
 
-Translate into natural English:
+*Chọn đáp án đúng nhất để hoàn thành câu:*
 
-1. Môn học yêu thích nhất của mình là môn Thể dục (PE).
-   👉 __________________________________________________
-2. Mình thích làm việc trong các dự án khoa học.
-   👉 __________________________________________________
-3. Bạn thích làm gì vào giờ ra chơi?
-   👉 __________________________________________________
+1. My new gaming laptop is much ______ than my old desktop computer.  
+   - A. fast  
+   - B. more fast  
+   - C. faster  
+   - D. fastest  
+
+2. The graphics in Elden Ring are ______ than in Roblox.  
+   - A. realistic  
+   - B. more realistic  
+   - C. realister  
+   - D. most realistic  
+
+3. This wireless headset is ______ than my heavy headphones.  
+   - A. lighter  
+   - B. more light  
+   - C. lightest  
+   - D. light  
+
+4. Fiber internet connection is ______ than 4G mobile data.  
+   - A. more smooth  
+   - B. smoother  
+   - C. smoothest  
+   - D. smooth  
+
+5. Playing co-op with friends is always ______ than playing alone.  
+   - A. funner  
+   - B. more fun  
+   - C. funniest  
+   - D. fun  
+
+---
+
+## Part 3: Mini-Translation (So Sánh Gear Tuổi Teen)
+
+*Dịch 3 câu sau sang tiếng Anh (sử dụng cấu trúc so sánh hơn với than):*
+
+1. Điện thoại mới của tôi nhanh hơn và mượt mà hơn điện thoại cũ của tôi.  
+   👉 *Your translation*: __________________________________________________
+2. Máy tính xách tay chơi game này mạnh mẽ hơn máy tính bảng của bạn tôi.  
+   👉 *Your translation*: __________________________________________________
+3. Tai nghe không dây này nhẹ hơn tai nghe của Nam.  
+   👉 *Your translation*: __________________________________________________
 
 ---
 
 ## Part 4: AI Voice Mission with Leo 🎙️
 
-Open ChatGPT Voice Mode (or Gemini Live) and practice:
+Hôm nay hãy mở ChatGPT Voice Mode hoặc Gemini Live lên và so sánh các thiết bị công nghệ với Leo nhé!
 
-> **Your Mission Prompt**:  
-> *"Hey Leo! Today I am practicing talking about school subjects and what I like doing with 'like + V-ing'. Ask me what subjects I like at school, what subjects I hate, and what I do during break time!"*
+> 💬 **Câu mở đầu gợi ý cho Bum**:  
+> *"Hey Leo! Today I'm learning how to compare tech gear using comparative adjectives. Can you ask me to compare two of my favorite gadgets or games?"*
 
-**Speaking Checklist**:
-- [ ] Use *"I like..."* + Verb-ing.
-- [ ] Use *"I hate..."* + Verb-ing.
-- [ ] Pronounce *science* and *PE* correctly.
+**Nhiệm vụ đàm thoại (Checklist)**:
+- [ ] Dùng ít nhất 2 câu so sánh có chữ **than** (*"faster than"*, *"smoother than"*, *"more powerful than"*).
+- [ ] So sánh 2 thứ: điện thoại vs máy tính, hoặc game Minecraft vs Roblox.
+- [ ] Sử dụng các từ *smooth*, *upgrade*, hoặc *lightweight*.
 
 ---
 
 <details>
-<summary>Click to reveal Answer Key 🔍</summary>
+<summary>👉 Nhấp vào đây để xem Đáp Án Chi Tiết (Answer Key) 🔍</summary>
 
 ### Part 1 Answers:
-1-B, 2-D, 3-A, 4-C, 5-E
+1. **lightweight**
+2. **upgrade**
+3. **smooth**
+4. **devices**
+5. **powerful**
 
 ### Part 2 Answers:
-1. playing
-2. reading
-3. doing
-4. listening
-5. waking
+1. **C. faster** *(Tính từ ngắn fast + er + than)*
+2. **B. more realistic** *(Tính từ dài realistic -> more realistic than)*
+3. **A. lighter** *(Tính từ ngắn light + er + than)*
+4. **B. smoother** *(Tính từ ngắn smooth + er + than)*
+5. **B. more fun** *(Fun dùng more fun than)*
 
 ### Part 3 Suggested Translations:
-1. *My favorite subject is PE (Physical Education).*
-2. *I like working on science projects.*
-3. *What do you like doing at break time?*
+1. *My new phone is faster and smoother than my old phone.*
+2. *This gaming laptop is more powerful than my friend's tablet.*
+3. *This wireless headset is lighter than Nam's headset.*
+
 </details>
 
 ---

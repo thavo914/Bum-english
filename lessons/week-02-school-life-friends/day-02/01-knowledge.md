@@ -1,6 +1,6 @@
-# Day 2: School Subjects & What I Like 📚
+# Day 2: Gear Upgrade & Tech Face-off 💻⚡
 
-Today we talk about your school subjects and expressing likes, loves, and dislikes!
+Hôm nay chúng ta sẽ bước vào sàn đấu công nghệ: so sánh máy tính, điện thoại, tai nghe và gear chơi game bằng **cấu trúc so sánh hơn (Comparatives)** để phân biệt rạch ròi với so sánh nhất nhé!
 
 ---
 
@@ -8,38 +8,43 @@ Today we talk about your school subjects and expressing likes, loves, and dislik
 
 | Word | Pronunciation (IPA) | Vietnamese Meaning | Example Sentence |
 | :--- | :--- | :--- | :--- |
-| **subject** | /ˈsʌb.dʒɪkt/ | môn học | *English is my favorite **subject**.* |
-| **science** | /ˈsaɪ.əns/ | môn khoa học (lý, hóa, sinh) | *We do fun experiments in our **science** lab.* |
-| **physical education (PE)** | /ˌfɪz.ɪ.kəl ed.jʊˈkeɪ.ʃən/ | môn thể dục | *We play basketball during **PE** class.* |
-| **project** | /ˈprɒdʒ.ekt/ | dự án / bài tập lớn | *Our history **project** is due this Friday.* |
-| **break time** | /ˈbreɪk taɪm/ | giờ ra chơi, giờ giải lao | *Let's go to the schoolyard at **break time**.* |
+| **upgrade** | /ʌpˈɡreɪd/ | nâng cấp (phần cứng/phần mềm) | *I want to **upgrade** my RAM so games run faster.* |
+| **powerful** | /ˈpaʊə.fəl/ | mạnh mẽ, cấu hình khủng | *This new gaming PC has a very **powerful** graphics card.* |
+| **smooth** | /smuːð/ | mượt mà, trơn tru | *The game runs at 120 FPS; the screen is super **smooth**.* |
+| **lightweight** | /ˈlaɪt.weɪt/ | gọn nhẹ, nhẹ cân | *My new wireless gaming mouse is extremely **lightweight**.* |
+| **device** | /dɪˈvaɪs/ | thiết bị điện tử (máy móc, phụ kiện) | *You can connect up to three **devices** via Bluetooth.* |
 
 ---
 
-## 2. Grammar Bite: *Like / Love / Hate + V-ing*
+## 2. Grammar Bite: Comparative Adjectives (So Sánh Hơn Của Tính Từ) ⚡
 
-When we talk about activities we enjoy or dislike, we add **-ing** to the following verb!
+Khi so sánh giữa **2 vật** (ví dụ máy tính mới vs máy tính cũ), ta dùng **so sánh hơn** đi kèm với từ **THAN** (hơn).
 
-### The Formula:
-- **love** / **like** / **enjoy** / **hate** + **Verb-ing**
+### 1. Tính từ ngắn (1 âm tiết: *fast, cool, light, big*):
+- **Công thức**: **Tính từ + -er + THAN**
+  - *My new gaming laptop is much **faster than** my old desktop computer.* ✅  
+    *(Laptop mới của tôi nhanh hơn nhiều so với máy tính bàn cũ.)*
+  - *This wireless mouse is **lighter than** my old one.* ✅
+  - *My room is **cooler than** the living room.* ✅
 
-### Examples:
-- *I **like playing** badminton during PE.*
-- *He **loves doing** science experiments.*
-- *They **hate waking up** early on Monday mornings.*
-- *We **enjoy working** on this group project.*
+### 2. Tính từ dài (2 âm tiết trở lên: *powerful, expensive, modern*):
+- **Công thức**: **MORE + Tính từ + THAN**
+  - *This gaming headset is **more comfortable than** the old earphones.* ✅
+  - *His PC is **more powerful than** my tablet.* ✅
 
-### Spelling tips for -ing:
-- play -> **playing**
-- study -> **studying**
-- run -> **running** (double consonant!)
-- make -> **making** (drop the silent 'e'!)
+### ⚠️ Bẫy Kinh Điển Cần Nhớ (Watch Out!):
+> 💡 **Phân biệt So sánh hơn vs So sánh nhất**:  
+> - Khi có chữ **than** ở phía sau -> **BẮT BUỘC** dùng so sánh hơn (*faster than*), **KHÔNG** dùng đuôi *-est*!
+> - Đuôi *-est* (*fastest, best*) là **so sánh nhất**, chỉ dùng khi có từ **THE** và so sánh giữa 3 đối tượng trở lên.  
+> ❌ *My new laptop is much **fastest** than my old desktop.* (Sai bẫy đuôi -est!)  
+> ❌ *My new laptop is **more fast** than my old desktop.* (Tính từ ngắn không dùng more!)  
+> ✅ *My new laptop is much **faster than** my old desktop.* (Chuẩn 100%!)
 
 ---
 
-## 3. Mini-Dialogue: In the Hallway 🏫
+## 3. Mini-Dialogue: Reviewing New Gaming Gear 🎧
 
-- **Khang**: "What subject do you have next?"
-- **Bao**: "We have **PE**. I **love playing** basketball with the coach!"
-- **Khang**: "Nice! After that, do we have **science**?"
-- **Bao**: "Yes, and we need to present our poster **project** at **break time**."
+- **Alex**: "Whoa Bum! Is that a new mechanical keyboard on your desk?"
+- **Bum**: "Yes! I just got an **upgrade**. It is much **smoother than** my old membrane keyboard."
+- **Alex**: "Does it feel heavy when carrying it to school?"
+- **Bum**: "Not at all, it's very **lightweight**. Plus, it is **more powerful than** my wireless one!"
