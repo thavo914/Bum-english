@@ -28,11 +28,14 @@ import re
 import sys
 
 try:
-    import pymupdf
+    import pymupdf  # type: ignore
 except ImportError:
-    print("Error: 'pymupdf' is required. Please install it using:")
-    print("    pip install pymupdf")
-    sys.exit(1)
+    try:
+        import fitz as pymupdf  # type: ignore
+    except ImportError:
+        print("Error: 'pymupdf' is required. Please install it using:")
+        print("    pip install pymupdf")
+        sys.exit(1)
 
 
 def format_markdown_table(rows):
