@@ -59,3 +59,13 @@ Open your browser at: **[http://localhost:3000](http://localhost:3000)**
 ## 🎙️ Chatting with AI Buddy "Leo"
 Every day has an **AI Voice Mission**. Open ChatGPT Voice Mode or the built-in Gemini Live audio bridge and speak directly with Leo:
 > *"Hey Leo! I am 14 years old. Today I am learning about my gaming gear. Ask me 3 quick questions in simple English!"*
+
+---
+
+## 📝 Graduation & Entrance Exams (Đề Thi Tuyển Sinh Lớp 10)
+Official Grade 10 entrance exams are digitized in the [`graduation exam/`](graduation%20exam/) folder.  
+To convert new exam PDFs into structured Markdown in the future:
+```bash
+pip install -r scripts/requirements.txt
+py scripts/convert_exam_pdf_to_md.py "graduation exam"
+```

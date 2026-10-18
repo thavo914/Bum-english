@@ -19,7 +19,7 @@ description: Reference schedule and pacing guide for the 14-year-old nephew's 5-
 | **Thứ 4 (Wed)** | **Kỹ năng & Thói quen** | Học về khả năng (*can/can't*) hoặc thói quen thường ngày (*Present Simple*). | ⭐ ⭐ ⭐ (3 Stars) |
 | **Thứ 5 (Thu)** | **Đời sống & Giao tiếp** | Học cách diễn đạt hành động đang làm (*Present Continuous*) hoặc đồ ăn, thức uống (*some/any*). | ⭐ ⭐ ⭐ (3 Stars) |
 | **Thứ 6 (Fri)** | **Weekly Boss Battle 🏆** | Tổng kết 4 ngày học. Vượt qua thử thách Boss Quiz + **Nói chuyện 10 phút với AI Buddy Leo**. | ⭐ ⭐ ⭐ (3 Stars) |
-| **T7 & CN (Sat-Sun)** | **Nghỉ ngơi & Giải trí** | Xả hơi! Xem 1 clip YouTube yêu thích bằng tiếng Anh hoặc nghe nhạc thư giãn. | Tự do 🎮 |
+| **Cuối tuần (Weekend)** | **Weekly Checkpoint Test 🎯** | **Làm bài Test tuần 30 câu** (`assessments/test-week-<N>.md`) chuẩn đề tuyển sinh lớp 10. Chấm điểm và cập nhật [assessments/MISTAKE_LOG.md](file:///c:/Users/Admin/source/repos/nephew-english/assessments/MISTAKE_LOG.md). | Đạt ≥ 25/30 câu ⭐ ⭐ ⭐ |
 
 ---
 
