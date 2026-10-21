@@ -9,11 +9,11 @@ Complete these quick challenges to earn your 3 Stars today!
 Choose the correct word from the box to complete each sentence:
 `[ streamer | avatar | nickname | beginner | profile ]`
 
-1. My friends call me Neo, but my real name is Nam. Neo is my ____________.
-2. She shows her gameplay live on YouTube. She is a famous ____________.
-3. Click on his ____________ to see his level and achievements.
-4. I chose a robot picture as my Discord ____________.
-5. He started playing Valorant yesterday, so he is still a ____________.
+1. My friends call me Neo, but my real name is Nam. Neo is my ___________.nickname
+2. She shows her gameplay live on YouTube. She is a famous ____________.streamer
+3. Click on his ____________ to see his level and achievements. profile
+4. I chose a robot picture as my Discord ____________.avatar
+5. He started playing Valorant yesterday, so he is still a ____________.beginner
 
 ---
 
@@ -21,11 +21,11 @@ Choose the correct word from the box to complete each sentence:
 
 Complete the sentences with **am**, **is**, or **are**:
 
-1. I ______ 14 years old and I love mobile games.
-2. ______ your brother online right now?
-3. They ______ not in my squad today.
-4. This gaming laptop ______ really fast!
-5. We ______ ready for the next match.
+1. I ______ 14 years old and I love mobile games.    am
+2. ______ your brother online right now?             is
+3. They ______ not in my squad today.                are
+4. This gaming laptop ______ really fast!             is
+5. We ______ ready for the next match.                are
 
 ---
 
@@ -34,11 +34,11 @@ Complete the sentences with **am**, **is**, or **are**:
 Translate these 3 simple sentences into natural English:
 
 1. Mình 14 tuổi và mình là một tân thủ trong game này.
-   👉 __________________________________________________
+   👉 __________________________________________________ i am 14 year old and i are beginner in this game 
 2. Tên biệt danh ingame của bạn là gì?
-   👉 __________________________________________________
+   👉 __________________________________________________ what you're nick name in game 
 3. Hình đại diện của anh ấy rất ngầu.
-   👉 __________________________________________________
+   👉 __________________________________________________  his avatar so cool
 
 ---
 

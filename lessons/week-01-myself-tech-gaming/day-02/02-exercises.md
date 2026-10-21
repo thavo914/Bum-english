@@ -34,11 +34,11 @@ Fill in the blanks with **have got**, **has got**, **haven't got**, or **hasn't 
 Translate into natural English:
 
 1. Mình có một chiếc tai nghe không dây rất xịn.
-   👉 __________________________________________________
+   👉 __________________________________________________ i have a headset wireless 
 2. Bạn có bàn phím cơ không?
-   👉 __________________________________________________
+   👉 __________________________________________________ do you have a keyboard
 3. Tay cầm chơi game của anh ấy hết pin rồi.
-   👉 __________________________________________________
+   👉 __________________________________________________ 
 
 ---
 

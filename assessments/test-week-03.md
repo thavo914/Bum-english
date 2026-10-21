@@ -17,13 +17,13 @@
 #### Question 1
 Yesterday afternoon, our school football squad played exceptionally well and ________ the final trophy.
 - A. win
-- B. won
+- B. won b
 - C. wins
 - D. is winning
 
 #### Question 2
 Two days ago, my family ________ camping near Tuyen Lam Lake in Da Lat.
-- A. went
+- A. went b
 - B. go
 - C. goes
 - D. are going
@@ -32,7 +32,7 @@ Two days ago, my family ________ camping near Tuyen Lam Lake in Da Lat.
 When Duy ran out of health points during the boss fight, I quickly threw ________ a potion.
 - A. he
 - B. his
-- C. him
+- C. him b
 - D. himself
 
 #### Question 4
@@ -40,18 +40,18 @@ Our English teacher is very dedicated, so all of ________ respect and love her.
 - A. we
 - B. our
 - C. ours
-- D. us
+- D. us b
 
 #### Question 5
 The morning bus picked up our scout group ________ 6:30 a.m. sharp.
 - A. in
-- B. at
+- B. at b
 - C. on
 - D. for
 
 #### Question 6
 We usually go swimming and play beach volleyball ________ Sunday afternoon.
-- A. on
+- A. on b
 - B. at
 - C. in
 - D. to
@@ -59,14 +59,14 @@ We usually go swimming and play beach volleyball ________ Sunday afternoon.
 #### Question 7
 Because it was raining heavily, Bum and Khoa ________ to the stadium to watch the match.
 - A. didn't went
-- B. didn't go
+- B. didn't go b
 - C. wasn't go
 - D. not go
 
 #### Question 8
 "________ you see the strange shadow behind the campfire last night?" — "No, I was asleep."
 - A. Do
-- B. Are
+- B. Are b
 - C. Were
 - D. Did
 
@@ -74,7 +74,7 @@ Because it was raining heavily, Bum and Khoa ________ to the stadium to watch th
 My older brother and I ________ big fans of Cristiano Ronaldo and Manchester United.
 - A. am
 - B. is
-- C. are
+- C. are b
 - D. be
 
 #### Question 10 *(Spiral Review: Khuyết thiếu)*
@@ -82,7 +82,7 @@ Phong had a sprained ankle yesterday, so he ________ join the 100-meter race.
 - A. couldn't
 - B. didn't can
 - C. couldn't to
-- D. can't
+- D. can't b
 
 ---
 
@@ -92,13 +92,13 @@ Phong had a sprained ankle yesterday, so he ________ join the 100-meter race.
 #### Question 11
 In the 90th minute of the match, the striker ________ a breathtaking bicycle kick into the net.
 - A. traded
-- B. scored
+- B. scored b
 - C. defeated
 - D. whispered
 
 #### Question 12
 The captain proudly lifted the shiny gold ________ in front of 15,000 cheering fans.
-- A. trophy
+- A. trophy b
 - B. inventory
 - C. backpack
 - D. campsite
@@ -107,19 +107,19 @@ The captain proudly lifted the shiny gold ________ in front of 15,000 cheering f
 Before entering the dark dungeon, remember to check your weapon and item ________.
 - A. shadow
 - B. stadium
-- C. inventory
+- C. inventory b
 - D. campfire
 
 #### Question 14
 The steel knight used a giant magical ________ to block the dragon's fiery breath.
 - A. tent
-- B. shield
+- B. shield b
 - C. flashlight
 - D. journey
 
 #### Question 15
 When the lights went out in the tent, Bum immediately switched on his ________.
-- A. flashlight
+- A. flashlight b
 - B. trophy
 - C. potion
 - D. teammate
@@ -128,35 +128,35 @@ When the lights went out in the tent, Bum immediately switched on his ________.
 Our school camping trip to Cuc Phuong National Park was an unforgettable and ________ experience.
 - A. strange
 - B. escaped
-- C. memorable
+- C. memorable b
 - D. regular
 
 #### Question 17
 Before the sunset, the scouts helped each other to ________ their camping tent on the flat ground.
 - A. put off
-- B. pitch
+- B. pitch b
 - C. score
 - D. drink
 
 #### Question 18
 Yesterday, Nam ________ his rare dragon skin with Khoa for three healing potions.
 - A. celebrated
-- B. traded
+- B. traded b
 - C. defeated
 - D. whispered
 
 #### Question 19
-The whole football club had a massive ________ after winning the city championship. (CELEBRATE)
-- A. celebration
+The whole football club had a massive celebration after winning the city championship. ()
+- A. celebration b
 - B. celebrated
-- C. celebrating
+- C. celebrating - gerrunnd
 - D. celebrity
 
 #### Question 20
-Hoang is an extremely reliable ________ who always passes the ball to open teammates. (PLAY)
-- A. player
+Hoang is an extremely reliable player who always passes the ball to open teammates. (PLAY)
+- A. player b
 - B. playing
-- C. playfully
+- C. playfully - adv
 - D. played
 
 ---
@@ -166,7 +166,7 @@ Hoang is an extremely reliable ________ who always passes the ball to open teamm
 #### Question 21
 **Khoa**: "Did our school team win the semi-final match yesterday?"  
 **Bum**: "________________________"
-- A. Yes, we won 3–1! It was insane!
+- A. Yes, we won 3–1! It was insane! b
 - B. No, it is not my favorite match.
 - C. I am playing football right now.
 - D. Yes, I do.
@@ -175,7 +175,7 @@ Hoang is an extremely reliable ________ who always passes the ball to open teamm
 **Duy**: "Do you want to trade your diamond shield for two of my health potions?"  
 **Bum**: "________________________"
 - A. You are welcome.
-- B. Deal! Let's do the trade right now.
+- B. Deal! Let's do the trade right now. b
 - C. No, I am 14 years old.
 - D. I traded it yesterday.
 
@@ -183,14 +183,14 @@ Hoang is an extremely reliable ________ who always passes the ball to open teamm
 **Lan**: "Thank you so much for lending me your flashlight during the camping night!"  
 **Bum**: "________________________"
 - A. Never mind, you can't have it.
-- B. Don't mention it! Glad I could help.
+- B. Don't mention it! Glad I could help. b
 - C. It is 8 o'clock.
 - D. Yes, I saw that shadow.
 
 #### Question 24
 **Phong**: "We are planning a road trip to Ba Vi this Saturday. Do you want to join us?"  
 **Bum**: "________________________"
-- A. Count me in! What should I pack in my backpack?
+- A. Count me in! What should I pack in my backpack? b
 - B. I don't have any games.
 - C. Yes, I played yesterday.
 - D. It is in Da Lat.
@@ -227,7 +227,7 @@ What does this notice tell campers to do?
 What must visitors remember when entering the stadium?
 - A. They can bring snacks and soda from home.
 - B. They must enter through Gate A.
-- C. They must display their QR tickets at Gate B and cannot bring outside food.
+- C. They must display their QR tickets at Gate B and cannot bring outside food. b 
 - D. Tickets are completely free for everyone today.
 
 ---
@@ -241,15 +241,15 @@ What must visitors remember when entering the stadium?
 #### Question 27
 What is the main topic of the passage?
 - A. A dangerous encounter with a wild forest bear.
-- B. A memorable weekend camping trip of four close friends.
+- B. A memorable weekend camping trip of four close friends. b
 - C. How to pitch a camping tent on a windy hill.
 - D. A guide on cooking food over a campfire.
 
 #### Question 28
 What did Khoa and Nam do on Saturday afternoon?
-- A. They explored the pine forest with Bum.
+- A. They explored the pine forest with Bum. 
 - B. They slept inside the blue tent.
-- C. They prepared dry firewood for the evening.
+- C. They prepared dry firewood for the evening. b
 - D. They fed a lost kitten some milk.
 
 #### Question 29
@@ -257,13 +257,13 @@ The word **"it"** in the second paragraph refers to:
 - A. the campfire
 - B. the flashlight
 - C. the pine forest
-- D. the kitten
+- D. the kitten b
 
 #### Question 30
 According to the passage, which of the following statements is **TRUE**?
 - A. The four friends arrived at the campsite late on Sunday evening.
 - B. The strange noise in the bushes was caused by a dangerous wild animal.
-- C. The temperature became very cold when night fell on Pine Hill.
+- C. The temperature became very cold when night fell on Pine Hill. b
 - D. Khoa forgot to bring a flashlight to the campsite.
 
 ---
