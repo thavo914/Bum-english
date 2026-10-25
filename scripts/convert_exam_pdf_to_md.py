@@ -145,7 +145,14 @@ def convert_pdf_to_md(pdf_path, output_dir=None, extract_images=True):
     md_path = os.path.join(output_dir, f"{stem}.md")
     doc = pymupdf.open(pdf_path)
 
-    img_dir_abs = os.path.join(pdf_dir, "images", stem)
+    if output_dir:
+        base_dir = os.path.dirname(os.path.abspath(output_dir))
+    elif os.path.basename(pdf_dir) == "pdf":
+        base_dir = os.path.dirname(pdf_dir)
+    else:
+        base_dir = pdf_dir
+
+    img_dir_abs = os.path.join(base_dir, "images", stem)
     if extract_images:
         os.makedirs(img_dir_abs, exist_ok=True)
 
@@ -277,19 +284,29 @@ def convert_pdf_to_md(pdf_path, output_dir=None, extract_images=True):
 
 def generate_readme_index(directory, md_dir=None):
     """Generate a summary README.md for the exams directory."""
-    pdfs = sorted([f for f in os.listdir(directory) if f.endswith('.pdf')])
+    pdfs = sorted([f for f in os.listdir(directory) if f.lower().endswith('.pdf')])
     if not pdfs:
         return
 
-    if md_dir is None:
-        md_dir = os.path.join(directory, 'md')
+    is_math = "math" in directory.lower() or "toan" in directory.lower()
+    subject_title = "Toán (Math Entrance Exams)" if is_math else "Tiếng Anh (English Entrance Exams)"
 
-    readme_path = os.path.join(directory, 'README.md')
-    rel_md_dir = os.path.relpath(md_dir, directory).replace('\\', '/')
+    if os.path.basename(directory).lower() == "pdf":
+        base_dir = os.path.dirname(directory)
+        rel_pdf_dir = "pdf"
+    else:
+        base_dir = directory
+        rel_pdf_dir = "."
+
+    if md_dir is None:
+        md_dir = os.path.join(base_dir, 'md')
+
+    readme_path = os.path.join(base_dir, 'README.md')
+    rel_md_dir = os.path.relpath(md_dir, base_dir).replace('\\', '/')
 
     lines = [
-        "# 📚 Bộ Đề Thi Tuyển Sinh Vào Lớp 10 Môn Tiếng Anh (Graduation Exam)\n",
-        "Kho lưu trữ đề thi tuyển sinh vào lớp 10 THPT môn Tiếng Anh chính thức, "
+        f"# 📚 Bộ Đề Thi Tuyển Sinh Vào Lớp 10 Môn {subject_title}\n",
+        f"Kho lưu trữ đề thi tuyển sinh vào lớp 10 THPT môn {subject_title.split(' (')[0]} chính thức & tham khảo, "
         "được số hóa và chuyển đổi định dạng chuẩn từ PDF sang Markdown để tiện học tập, ôn luyện và tra cứu.\n",
         "---",
         "## 📋 Danh Mục Đề Thi\n",
@@ -301,13 +318,14 @@ def generate_readme_index(directory, md_dir=None):
         stem = os.path.splitext(pdf)[0]
         md_file = f"{stem}.md"
         md_link = f"{rel_md_dir}/{md_file}" if rel_md_dir != "." else md_file
+        pdf_link = f"{rel_pdf_dir}/{pdf}" if rel_pdf_dir != "." else pdf
         pdf_path = os.path.join(directory, pdf)
         try:
             doc = pymupdf.open(pdf_path)
             page_count = len(doc)
         except Exception:
             page_count = "?"
-        lines.append(f"| **{idx:02d}** | [{md_file}]({md_link}) | [{pdf}]({pdf}) | {page_count} |")
+        lines.append(f"| **{idx:02d}** | [{md_file}]({md_link}) | [{pdf}]({pdf_link}) | {page_count} |")
 
     lines.append("\n---\n")
     lines.append("## 💡 Hướng Dẫn Sử Dụng")
@@ -326,11 +344,12 @@ def main():
     parser = argparse.ArgumentParser(
         description="Convert graduation/entrance exam PDFs to structured Markdown."
     )
+    default_exam_dir = "english/exams" if os.path.exists("english/exams") else "graduation exam"
     parser.add_argument(
         "path",
         nargs="?",
-        default="graduation exam",
-        help="Path to a PDF file or a directory containing PDF files (default: 'graduation exam')."
+        default=default_exam_dir,
+        help=f"Path to a PDF file or a directory containing PDF files (default: '{default_exam_dir}')."
     )
     parser.add_argument(
         "--output-dir",
@@ -366,7 +385,12 @@ def main():
         if not pdf_files:
             print(f"No PDF files found in {target}")
             sys.exit(0)
-        output_dir = args.output_dir or os.path.join(target, "md")
+        if args.output_dir:
+            output_dir = os.path.abspath(args.output_dir)
+        elif os.path.basename(target).lower() == "pdf":
+            output_dir = os.path.join(os.path.dirname(target), "md")
+        else:
+            output_dir = os.path.join(target, "md")
         os.makedirs(output_dir, exist_ok=True)
         print(f"Found {len(pdf_files)} PDF file(s) in {target}. Converting to {output_dir}...")
         for pdf in pdf_files:

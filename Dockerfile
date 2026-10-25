@@ -12,7 +12,8 @@ RUN npm install --omit=dev
 
 # Copy application files
 COPY server.js ./
-COPY lessons/ ./lessons/
+COPY english/ ./english/
+COPY math/ ./math/
 COPY public/ ./public/
 
 # Expose server port
