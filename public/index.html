@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Nephew English Hub | CEFR A1–A2</title>
+  <title>Bum Study Hub | Tiếng Anh & Toán Lớp 9 Ôn Thi Vào 10</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Trung tâm học tập đa môn dành cho Bum (14 tuổi): Tiếng Anh CEFR A1-A2 & Toán Lớp 9 luyện thi tuyển sinh vào lớp 10.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -13,10 +14,12 @@
       --card: #131b2e;
       --card-hover: #1c2742;
       --border: #233054;
-      --accent: #38bdf8;
-      --accent-glow: rgba(56, 189, 248, 0.2);
+      --accent-blue: #38bdf8;
+      --accent-blue-glow: rgba(56, 189, 248, 0.25);
+      --accent-green: #10b981;
+      --accent-green-glow: rgba(16, 185, 129, 0.25);
+      --accent-amber: #f59e0b;
       --accent-purple: #a855f7;
-      --accent-green: #22c55e;
       --text: #f8fafc;
       --text-muted: #94a3b8;
       --star: #fbbf24;
@@ -27,73 +30,132 @@
       color: var(--text);
       font-family: 'Plus Jakarta Sans', sans-serif;
       min-height: 100vh;
-      padding-bottom: 3rem;
+      padding-bottom: 4rem;
     }
     header {
-      padding: 1.5rem 2rem;
+      padding: 1.25rem 2rem;
       border-bottom: 1px solid var(--border);
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background: rgba(11, 15, 25, 0.8);
-      backdrop-filter: blur(10px);
+      background: rgba(11, 15, 25, 0.85);
+      backdrop-filter: blur(12px);
       position: sticky;
       top: 0;
       z-index: 100;
     }
     .brand {
       font-family: 'Outfit', sans-serif;
-      font-size: 1.6rem;
+      font-size: 1.55rem;
       font-weight: 800;
-      background: linear-gradient(135deg, #38bdf8, #a855f7);
+      background: linear-gradient(135deg, #38bdf8, #10b981);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       display: flex;
       align-items: center;
       gap: 0.6rem;
     }
+    .brand-icon {
+      font-size: 1.6rem;
+      -webkit-text-fill-color: initial;
+    }
     .badge {
       background: rgba(56, 189, 248, 0.1);
-      border: 1px solid var(--accent);
-      color: var(--accent);
+      border: 1px solid var(--accent-blue);
+      color: var(--accent-blue);
       padding: 0.35rem 0.9rem;
       border-radius: 999px;
       font-size: 0.85rem;
       font-weight: 600;
     }
     main {
-      max-width: 1100px;
+      max-width: 1140px;
       margin: 2.5rem auto;
       padding: 0 1.5rem;
     }
     .hero {
       text-align: center;
-      margin-bottom: 3rem;
+      margin-bottom: 2.5rem;
     }
     .hero h1 {
       font-family: 'Outfit', sans-serif;
-      font-size: 2.8rem;
+      font-size: 2.75rem;
       font-weight: 800;
       letter-spacing: -0.02em;
-      margin-bottom: 0.8rem;
+      margin-bottom: 0.6rem;
+      background: linear-gradient(135deg, #f8fafc, #cbd5e1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
     .hero p {
       color: var(--text-muted);
-      font-size: 1.15rem;
-      max-width: 600px;
+      font-size: 1.12rem;
+      max-width: 650px;
       margin: 0 auto;
+      line-height: 1.6;
     }
-    .week-section {
-      margin-bottom: 3rem;
+    
+    /* Subject Switcher Tabs */
+    .tab-bar {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 2.8rem;
     }
-    .week-title {
-      font-family: 'Outfit', sans-serif;
-      font-size: 1.6rem;
-      font-weight: 700;
-      margin-bottom: 1.2rem;
+    .tab-btn {
       display: flex;
       align-items: center;
       gap: 0.6rem;
+      padding: 0.85rem 1.8rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: #101626;
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+    .tab-btn:hover {
+      border-color: #3b4b75;
+      color: #fff;
+      transform: translateY(-2px);
+    }
+    .tab-btn.active-english {
+      background: linear-gradient(135deg, #0284c7, #2563eb);
+      color: white;
+      border-color: #38bdf8;
+      box-shadow: 0 6px 20px var(--accent-blue-glow);
+    }
+    .tab-btn.active-math {
+      background: linear-gradient(135deg, #059669, #10b981);
+      color: white;
+      border-color: #34d399;
+      box-shadow: 0 6px 20px var(--accent-green-glow);
+    }
+
+    /* Content Panels */
+    .subject-panel {
+      display: none;
+      animation: fadeIn 0.3s ease forwards;
+    }
+    .subject-panel.active {
+      display: block;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Section Styles */
+    .section-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.55rem;
+      font-weight: 700;
+      margin: 2rem 0 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
       color: #e2e8f0;
     }
     .grid {
@@ -105,226 +167,529 @@
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: 1rem;
-      padding: 1.4rem;
-      transition: all 0.2s ease;
+      padding: 1.35rem;
+      transition: all 0.25s ease;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
     }
     .card:hover {
-      border-color: var(--accent);
-      box-shadow: 0 8px 24px var(--accent-glow);
-      transform: translateY(-2px);
+      border-color: var(--accent-blue);
+      box-shadow: 0 8px 24px var(--accent-blue-glow);
+      transform: translateY(-3px);
+    }
+    .card.math-card:hover {
+      border-color: var(--accent-green);
+      box-shadow: 0 8px 24px var(--accent-green-glow);
     }
     .card-header {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
-      margin-bottom: 0.8rem;
+      margin-bottom: 0.75rem;
     }
     .card-title {
       font-size: 1.15rem;
       font-weight: 700;
       line-height: 1.4;
+      color: #f1f5f9;
     }
     .card p {
       color: var(--text-muted);
       font-size: 0.92rem;
-      line-height: 1.5;
+      line-height: 1.55;
       margin-bottom: 1.2rem;
     }
     .btn-group {
       display: flex;
-      gap: 0.6rem;
+      gap: 0.55rem;
+      margin-top: auto;
     }
     .btn {
       flex: 1;
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
       text-align: center;
-      padding: 0.6rem 0.8rem;
-      border-radius: 0.5rem;
+      padding: 0.62rem 0.8rem;
+      border-radius: 0.55rem;
       text-decoration: none;
       font-weight: 600;
       font-size: 0.88rem;
-      transition: background 0.2s;
+      transition: all 0.2s;
     }
-    .btn-primary {
+    .btn-blue {
       background: #0284c7;
       color: white;
     }
-    .btn-primary:hover { background: #0369a1; }
+    .btn-blue:hover { background: #0369a1; }
+    .btn-green {
+      background: #059669;
+      color: white;
+    }
+    .btn-green:hover { background: #047857; }
     .btn-secondary {
       background: #233054;
       color: #e2e8f0;
     }
-    .btn-secondary:hover { background: #2e3e6b; }
+    .btn-secondary:hover { background: #2e3e6b; color: #fff; }
+    
+    /* Quick Resources Banner */
+    .resource-banner {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .resource-card {
+      background: #101726;
+      border: 1px solid #1e293b;
+      padding: 1.1rem;
+      border-radius: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s;
+    }
+    .resource-card:hover {
+      border-color: #3b82f6;
+      transform: translateY(-2px);
+      background: #141d30;
+    }
+    .resource-card.math-res:hover {
+      border-color: #10b981;
+    }
+    .resource-icon {
+      font-size: 1.8rem;
+    }
+    .resource-title {
+      font-weight: 700;
+      font-size: 0.98rem;
+      margin-bottom: 0.2rem;
+      color: #f8fafc;
+    }
+    .resource-sub {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
   </style>
 </head>
 <body>
   <header>
     <div class="brand">
-      <span>🎮</span> Nephew English Hub
+      <span class="brand-icon">🚀</span> Bum Study Hub
     </div>
-    <div class="badge">CEFR A1–A2 • 14 Years Old</div>
+    <div class="badge">Lớp 9 • Ôn Thi Vào 10</div>
   </header>
 
   <main>
     <div class="hero">
-      <h1>Level Up Your English! 🚀</h1>
-      <p>30 minutes a day, 5 days a week. Learn words, master grammar rules, and chat with AI Buddy Leo.</p>
+      <h1>Level Up Your Knowledge! 🎯</h1>
+      <p>Hệ thống tự học đa môn thiết kế riêng cho Bum: Chinh phục kỳ thi Tuyển sinh vào lớp 10 với bộ đôi <strong>Tiếng Anh</strong> & <strong>Toán Học</strong>.</p>
     </div>
 
-    <!-- WEEK 1 -->
-    <section class="week-section">
-      <div class="week-title">⚡ Week 1: Myself, Tech & Gaming</div>
-      <div class="grid">
-        <div class="card">
-          <div>
-            <div class="card-header">
-              <div class="card-title">Day 1: Gamer Profile & Tech Setup</div>
-              <span style="color: var(--star)">⭐⭐⭐</span>
-            </div>
-            <p>5 gaming words and the verb "To Be" for introductions.</p>
-          </div>
-          <div class="btn-group">
-            <a href="/lessons/week-01-myself-tech-gaming/day-01/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
-            <a href="/lessons/week-01-myself-tech-gaming/day-01/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
-          </div>
-        </div>
+    <!-- Multi-Subject Switcher -->
+    <div class="tab-bar">
+      <button class="tab-btn active-english" id="tab-english" onclick="switchSubject('english')">
+        <span>🎮</span> Tiếng Anh (English Hub)
+      </button>
+      <button class="tab-btn" id="tab-math" onclick="switchSubject('math')">
+        <span>📐</span> Toán Học (Math Hub)
+      </button>
+    </div>
 
-        <div class="card">
+    <!-- ========================================== -->
+    <!-- ENGLISH HUB PANEL                          -->
+    <!-- ========================================== -->
+    <div id="panel-english" class="subject-panel active">
+      <!-- English Quick Resources -->
+      <div class="resource-banner">
+        <a href="/view/english/assessments/placement-test-a1-a2.md" class="resource-card" target="_blank">
+          <div class="resource-icon">📝</div>
           <div>
-            <div class="card-header">
-              <div class="card-title">Day 2: Gaming Gear & Gadgets</div>
-              <span style="color: var(--star)">⭐⭐⭐</span>
-            </div>
-            <p>Describe your headset, keyboard, and console with "have / has got".</p>
+            <div class="resource-title">Placement Test A1-A2</div>
+            <div class="resource-sub">Bài test kiểm tra trình độ</div>
           </div>
-          <div class="btn-group">
-            <a href="/lessons/week-01-myself-tech-gaming/day-02/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
-            <a href="/lessons/week-01-myself-tech-gaming/day-02/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
-          </div>
-        </div>
-
-        <div class="card">
+        </a>
+        <a href="/view/english/assessments/MISTAKE_LOG.md" class="resource-card" target="_blank">
+          <div class="resource-icon">🚨</div>
           <div>
-            <div class="card-header">
-              <div class="card-title">Day 3: Superpowers & What I Can Do</div>
-              <span style="color: var(--star)">⭐⭐⭐</span>
-            </div>
-            <p>Talk about hero abilities and gaming skills with "can / can't".</p>
+            <div class="resource-title">English Mistake Log</div>
+            <div class="resource-sub">Nhật ký 8 bẫy đề thi cần tránh</div>
           </div>
-          <div class="btn-group">
-            <a href="/lessons/week-01-myself-tech-gaming/day-03/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
-            <a href="/lessons/week-01-myself-tech-gaming/day-03/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
-          </div>
-        </div>
-
-        <div class="card">
+        </a>
+        <a href="/view/english/exams/QUESTION_REGISTRY.md" class="resource-card" target="_blank">
+          <div class="resource-icon">📑</div>
           <div>
-            <div class="card-header">
-              <div class="card-title">Day 4: Daily Routine & Stream Time</div>
-              <span style="color: var(--star)">⭐⭐⭐</span>
-            </div>
-            <p>Express habits, YouTube time, and weekend routines in Present Simple.</p>
+            <div class="resource-title">Ngân Hàng 380+ Câu Vào 10</div>
+            <div class="resource-sub">Phân loại CEFR & Bloom</div>
           </div>
-          <div class="btn-group">
-            <a href="/lessons/week-01-myself-tech-gaming/day-04/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
-            <a href="/lessons/week-01-myself-tech-gaming/day-04/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div>
-            <div class="card-header">
-              <div class="card-title">Day 5: Boss Battle & AI Voice Talk</div>
-              <span style="color: var(--star)">⭐⭐⭐</span>
-            </div>
-            <p>Weekly review quest and 10-minute voice chat mission with Leo.</p>
-          </div>
-          <div class="btn-group">
-            <a href="/lessons/week-01-myself-tech-gaming/day-05/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
-            <a href="/lessons/week-01-myself-tech-gaming/day-05/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
-          </div>
-        </div>
+        </a>
       </div>
-    </section>
 
-    <!-- WEEK 2 -->
-    <section class="week-section">
-      <div class="week-title">🎒 Week 2: School Life, Friends & Fun</div>
-      <div class="grid">
-        <div class="card">
-          <div>
-            <div class="card-header">
-              <div class="card-title">Day 1: My Squad & Best Friends</div>
-              <span style="color: var(--star)">⭐⭐⭐</span>
+      <!-- WEEK 1 -->
+      <section>
+        <div class="section-title">⚡ Week 1: Myself, Tech & Gaming</div>
+        <div class="grid">
+          <div class="card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Day 1: Gamer Profile & Tech Setup</div>
+                <span style="color: var(--star)">⭐⭐⭐</span>
+              </div>
+              <p>5 gaming words and the verb "To Be" for introductions.</p>
             </div>
-            <p>Introduce classmates and friends with possessive adjectives (my, your, his, her).</p>
+            <div class="btn-group">
+              <a href="/lessons/english/week-01-myself-tech-gaming/day-01/01-knowledge.md" class="btn btn-blue" target="_blank">📘 Knowledge</a>
+              <a href="/lessons/english/week-01-myself-tech-gaming/day-01/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+            </div>
           </div>
-          <div class="btn-group">
-            <a href="/lessons/week-02-school-life-friends/day-01/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
-            <a href="/lessons/week-02-school-life-friends/day-01/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+
+          <div class="card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Day 2: Gaming Gear & Gadgets</div>
+                <span style="color: var(--star)">⭐⭐⭐</span>
+              </div>
+              <p>Describe your headset, keyboard, and console with "have / has got".</p>
+            </div>
+            <div class="btn-group">
+              <a href="/lessons/english/week-01-myself-tech-gaming/day-02/01-knowledge.md" class="btn btn-blue" target="_blank">📘 Knowledge</a>
+              <a href="/lessons/english/week-01-myself-tech-gaming/day-02/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Day 3: Superpowers & Abilities</div>
+                <span style="color: var(--star)">⭐⭐⭐</span>
+              </div>
+              <p>Talk about hero abilities and gaming skills with "can / can't".</p>
+            </div>
+            <div class="btn-group">
+              <a href="/lessons/english/week-01-myself-tech-gaming/day-03/01-knowledge.md" class="btn btn-blue" target="_blank">📘 Knowledge</a>
+              <a href="/lessons/english/week-01-myself-tech-gaming/day-03/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Day 4: Daily Routine & Stream Time</div>
+                <span style="color: var(--star)">⭐⭐⭐</span>
+              </div>
+              <p>Express habits, YouTube time, and weekend routines in Present Simple.</p>
+            </div>
+            <div class="btn-group">
+              <a href="/lessons/english/week-01-myself-tech-gaming/day-04/01-knowledge.md" class="btn btn-blue" target="_blank">📘 Knowledge</a>
+              <a href="/lessons/english/week-01-myself-tech-gaming/day-04/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Day 5: Boss Battle & AI Voice Talk</div>
+                <span style="color: var(--star)">⭐⭐⭐</span>
+              </div>
+              <p>Weekly review quest and 10-minute voice chat mission with Leo.</p>
+            </div>
+            <div class="btn-group">
+              <a href="/lessons/english/week-01-myself-tech-gaming/day-05/01-knowledge.md" class="btn btn-blue" target="_blank">📘 Knowledge</a>
+              <a href="/lessons/english/week-01-myself-tech-gaming/day-05/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+            </div>
           </div>
         </div>
+      </section>
 
-        <div class="card">
-          <div>
-            <div class="card-header">
-              <div class="card-title">Day 2: Favorite Subjects & Hobbies</div>
-              <span style="color: var(--star)">⭐⭐⭐</span>
+      <!-- WEEK 2 -->
+      <section>
+        <div class="section-title">🎒 Week 2: School Life, Friends & Fun</div>
+        <div class="grid">
+          <div class="card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Day 1: My Squad & Best Friends</div>
+                <span style="color: var(--star)">⭐⭐⭐</span>
+              </div>
+              <p>Introduce classmates and friends with possessive adjectives.</p>
             </div>
-            <p>Talk about school subjects and hobbies with "like / love / hate + V-ing".</p>
+            <div class="btn-group">
+              <a href="/lessons/english/week-02-school-life-friends/day-01/01-knowledge.md" class="btn btn-blue" target="_blank">📘 Knowledge</a>
+              <a href="/lessons/english/week-02-school-life-friends/day-01/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+            </div>
           </div>
-          <div class="btn-group">
-            <a href="/lessons/week-02-school-life-friends/day-02/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
-            <a href="/lessons/week-02-school-life-friends/day-02/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+
+          <div class="card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Day 2: Favorite Subjects & Hobbies</div>
+                <span style="color: var(--star)">⭐⭐⭐</span>
+              </div>
+              <p>Talk about school subjects and hobbies with "like / love / hate + V-ing".</p>
+            </div>
+            <div class="btn-group">
+              <a href="/lessons/english/week-02-school-life-friends/day-02/01-knowledge.md" class="btn btn-blue" target="_blank">📘 Knowledge</a>
+              <a href="/lessons/english/week-02-school-life-friends/day-02/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Day 3: Canteen Snacks & Bubble Tea</div>
+                <span style="color: var(--star)">⭐⭐⭐</span>
+              </div>
+              <p>Order food and snacks using "some" and "any" with countable/uncountable nouns.</p>
+            </div>
+            <div class="btn-group">
+              <a href="/lessons/english/week-02-school-life-friends/day-03/01-knowledge.md" class="btn btn-blue" target="_blank">📘 Knowledge</a>
+              <a href="/lessons/english/week-02-school-life-friends/day-03/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Day 4: What Are You Doing Now?</div>
+                <span style="color: var(--star)">⭐⭐⭐</span>
+              </div>
+              <p>Describe current actions and hangout moments with Present Continuous.</p>
+            </div>
+            <div class="btn-group">
+              <a href="/lessons/english/week-02-school-life-friends/day-04/01-knowledge.md" class="btn btn-blue" target="_blank">📘 Knowledge</a>
+              <a href="/lessons/english/week-02-school-life-friends/day-04/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Day 5: Weekend Hangout & Roleplay</div>
+                <span style="color: var(--star)">⭐⭐⭐</span>
+              </div>
+              <p>Weekly review challenge and real-time voice cafe order roleplay with Leo.</p>
+            </div>
+            <div class="btn-group">
+              <a href="/lessons/english/week-02-school-life-friends/day-05/01-knowledge.md" class="btn btn-blue" target="_blank">📘 Knowledge</a>
+              <a href="/lessons/english/week-02-school-life-friends/day-05/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+            </div>
           </div>
         </div>
+      </section>
 
-        <div class="card">
-          <div>
-            <div class="card-header">
-              <div class="card-title">Day 3: Canteen Snacks & Bubble Tea</div>
-              <span style="color: var(--star)">⭐⭐⭐</span>
+      <!-- WEEK 3 -->
+      <section>
+        <div class="section-title">⚽ Week 3: Past Adventures & Match Stories</div>
+        <div class="grid">
+          <div class="card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Day 1: The Comeback Match & Victory Glory</div>
+                <span style="color: var(--star)">⭐⭐⭐</span>
+              </div>
+              <p>Past Simple regular & irregular verbs with football drama and epic comeback stories.</p>
             </div>
-            <p>Order food and snacks using "some" and "any" with countable/uncountable nouns.</p>
-          </div>
-          <div class="btn-group">
-            <a href="/lessons/week-02-school-life-friends/day-03/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
-            <a href="/lessons/week-02-school-life-friends/day-03/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+            <div class="btn-group">
+              <a href="/lessons/english/week-03-past-adventures-stories/day-01/01-knowledge.md" class="btn btn-blue" target="_blank">📘 Knowledge</a>
+              <a href="/lessons/english/week-03-past-adventures-stories/day-01/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+            </div>
           </div>
         </div>
+      </section>
+    </div>
 
-        <div class="card">
+    <!-- ========================================== -->
+    <!-- MATH HUB PANEL                             -->
+    <!-- ========================================== -->
+    <div id="panel-math" class="subject-panel">
+      <!-- Math Quick Resources -->
+      <div class="resource-banner">
+        <a href="/view/math/cheatsheets/cong-thuc-dai-so-9.md" class="resource-card math-res" target="_blank">
+          <div class="resource-icon">⚡</div>
           <div>
-            <div class="card-header">
-              <div class="card-title">Day 4: What Are You Doing Now?</div>
-              <span style="color: var(--star)">⭐⭐⭐</span>
-            </div>
-            <p>Describe current actions and hangout moments with Present Continuous.</p>
+            <div class="resource-title">Sổ Tay Đại Số 9</div>
+            <div class="resource-sub">Công thức tóm tắt 1 trang</div>
           </div>
-          <div class="btn-group">
-            <a href="/lessons/week-02-school-life-friends/day-04/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
-            <a href="/lessons/week-02-school-life-friends/day-04/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
-          </div>
-        </div>
-
-        <div class="card">
+        </a>
+        <a href="/view/math/cheatsheets/cong-thuc-hinh-hoc-9.md" class="resource-card math-res" target="_blank">
+          <div class="resource-icon">📐</div>
           <div>
-            <div class="card-header">
-              <div class="card-title">Day 5: Weekend Hangout & Leo's Cafe Roleplay</div>
-              <span style="color: var(--star)">⭐⭐⭐</span>
-            </div>
-            <p>Weekly review challenge and real-time voice cafe order roleplay with Leo.</p>
+            <div class="resource-title">Sổ Tay Hình Học 9</div>
+            <div class="resource-sub">Hệ thức lượng, đường tròn, tứ giác</div>
           </div>
-          <div class="btn-group">
-            <a href="/lessons/week-02-school-life-friends/day-05/01-knowledge.md" class="btn btn-primary" target="_blank">📘 Knowledge</a>
-            <a href="/lessons/week-02-school-life-friends/day-05/02-exercises.md" class="btn btn-secondary" target="_blank">🎮 Exercises</a>
+        </a>
+        <a href="/view/math/assessments/MISTAKE_LOG.md" class="resource-card math-res" target="_blank">
+          <div class="resource-icon">🚨</div>
+          <div>
+            <div class="resource-title">Sổ Tay Bẫy Tử Thần</div>
+            <div class="resource-sub">Triệt tiêu các lỗi ẩu mất điểm</div>
           </div>
-        </div>
+        </a>
+        <a href="/view/math/exams/README.md" class="resource-card math-res" target="_blank">
+          <div class="resource-icon">📚</div>
+          <div>
+            <div class="resource-title">Đề Thi Vào 10 Môn Toán</div>
+            <div class="resource-sub">Hà Nội, TP.HCM, Cần Thơ,...</div>
+          </div>
+        </a>
       </div>
-    </section>
+
+      <!-- KHO CHUYÊN ĐỀ TRỌNG TÂM (TOPICS) -->
+      <section>
+        <div class="section-title">📚 8 Chuyên Đề Trọng Tâm Ôn Thi Vào 10</div>
+        <div class="grid">
+          <div class="card math-card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Chuyên Đề 01: Căn Thức Bậc Hai</div>
+                <span class="badge" style="border-color: #10b981; color: #10b981;">1.5 - 2.0 đ</span>
+              </div>
+              <p>Rút gọn căn thức số học, biểu thức chứa biến $x$, tìm ĐKXĐ và câu hỏi phụ.</p>
+            </div>
+            <div class="btn-group">
+              <a href="/view/math/topics/01-can-thuc-va-bien-doi/README.md" class="btn btn-green" target="_blank">📖 Lý Thuyết & Dạng Bài</a>
+            </div>
+          </div>
+
+          <div class="card math-card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Chuyên Đề 02: Hàm Số $y = ax + b$</div>
+                <span class="badge" style="border-color: #10b981; color: #10b981;">0.5 - 1.0 đ</span>
+              </div>
+              <p>Vẽ đồ thị, tính đồng biến/nghịch biến, vị trí tương đối giữa 2 đường thẳng.</p>
+            </div>
+            <div class="btn-group">
+              <a href="/view/math/topics/02-ham-so-bac-nhat-va-do-thi/README.md" class="btn btn-green" target="_blank">📖 Lý Thuyết & Dạng Bài</a>
+            </div>
+          </div>
+
+          <div class="card math-card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Chuyên Đề 03: Hệ Phương Trình</div>
+                <span class="badge" style="border-color: #10b981; color: #10b981;">1.0 - 1.5 đ</span>
+              </div>
+              <p>Phương pháp thế, cộng đại số và giải bài toán bằng cách lập hệ phương trình.</p>
+            </div>
+            <div class="btn-group">
+              <a href="/view/math/topics/03-he-phuong-trinh-bac-nhat/README.md" class="btn btn-green" target="_blank">📖 Lý Thuyết & Dạng Bài</a>
+            </div>
+          </div>
+
+          <div class="card math-card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Chuyên Đề 04: PT Bậc Hai & Vi-ét</div>
+                <span class="badge" style="border-color: #10b981; color: #10b981;">1.5 - 2.0 đ</span>
+              </div>
+              <p>Định lý Vi-ét, biểu thức đối xứng nghiệm, tương giao Parabol & Đường thẳng.</p>
+            </div>
+            <div class="btn-group">
+              <a href="/view/math/topics/04-phuong-trinh-bac-hai-va-viet/README.md" class="btn btn-green" target="_blank">📖 Lý Thuyết & Dạng Bài</a>
+            </div>
+          </div>
+
+          <div class="card math-card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Chuyên Đề 05: Toán Thực Tế</div>
+                <span class="badge" style="border-color: #10b981; color: #10b981;">1.0 - 1.5 đ</span>
+              </div>
+              <p>Toán chuyển động, năng suất, kinh tế tài chính, lãi suất ngân hàng.</p>
+            </div>
+            <div class="btn-group">
+              <a href="/view/math/topics/05-toan-thuc-te/README.md" class="btn btn-green" target="_blank">📖 Lý Thuyết & Dạng Bài</a>
+            </div>
+          </div>
+
+          <div class="card math-card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Chuyên Đề 06: Hình Học Phẳng Lớp 9</div>
+                <span class="badge" style="border-color: #10b981; color: #10b981;">3.0 - 3.5 đ</span>
+              </div>
+              <p>Hệ thức lượng tam giác vuông, tiếp tuyến đường tròn, 4 dấu hiệu tứ giác nội tiếp.</p>
+            </div>
+            <div class="btn-group">
+              <a href="/view/math/topics/06-hinh-hoc-phang-lop-9/README.md" class="btn btn-green" target="_blank">📖 Lý Thuyết & Dạng Bài</a>
+            </div>
+          </div>
+
+          <div class="card math-card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Chuyên Đề 07: Hình Không Gian</div>
+                <span class="badge" style="border-color: #10b981; color: #10b981;">0.5 - 1.0 đ</span>
+              </div>
+              <p>Diện tích xung quanh & thể tích hình trụ, hình nón, hình cầu thực tế.</p>
+            </div>
+            <div class="btn-group">
+              <a href="/view/math/topics/07-hinh-khong-gian/README.md" class="btn btn-green" target="_blank">📖 Lý Thuyết & Dạng Bài</a>
+            </div>
+          </div>
+
+          <div class="card math-card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Chuyên Đề 08: Bất Đẳng Thức Điểm 10</div>
+                <span class="badge" style="border-color: #10b981; color: #10b981;">0.5 đ (Bonus)</span>
+              </div>
+              <p>Bất đẳng thức Cô-si, kỹ thuật chọn điểm rơi và tìm GTLN - GTNN.</p>
+            </div>
+            <div class="btn-group">
+              <a href="/view/math/topics/08-bat-dang-thuc-cuc-tri/README.md" class="btn btn-green" target="_blank">📖 Lý Thuyết & Dạng Bài</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LUYỆN TẬP THEO TUẦN (WEEKLY LESSONS) -->
+      <section>
+        <div class="section-title">🗓️ Lộ Trình Luyện Tập Hàng Ngày (2-File Daily Practice)</div>
+        <div class="grid">
+          <div class="card math-card">
+            <div>
+              <div class="card-header">
+                <div class="card-title">Week 1 - Day 1: Căn Bậc Hai & Phá Căn $\sqrt{A^2}=|A|$</div>
+                <span style="color: var(--star)">⭐⭐⭐</span>
+              </div>
+              <p>Nắm vững ĐKXĐ, hằng đẳng thức căn thức và bẫy đổi dấu giá trị tuyệt đối.</p>
+            </div>
+            <div class="btn-group">
+              <a href="/lessons/math/week-01-can-thuc-dai-so/day-01/01-knowledge.md" class="btn btn-green" target="_blank">📘 Lý Thuyết</a>
+              <a href="/lessons/math/week-01-can-thuc-dai-so/day-01/02-exercises.md" class="btn btn-secondary" target="_blank">✍️ Bài Tập</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </main>
+
+  <script>
+    function switchSubject(subject) {
+      const tabEng = document.getElementById('tab-english');
+      const tabMath = document.getElementById('tab-math');
+      const panelEng = document.getElementById('panel-english');
+      const panelMath = document.getElementById('panel-math');
+
+      if (subject === 'english') {
+        tabEng.classList.add('active-english');
+        tabMath.classList.remove('active-math');
+        panelEng.classList.add('active');
+        panelMath.classList.remove('active');
+      } else {
+        tabMath.classList.add('active-math');
+        tabEng.classList.remove('active-english');
+        panelMath.classList.add('active');
+        panelEng.classList.remove('active');
+      }
+    }
+  </script>
 </body>
 </html>

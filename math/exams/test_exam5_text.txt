@@ -1,0 +1,76 @@
+ 
+ 
+ 
+ 
+1 
+ 
+Câu 1: (1,5 điểm)  
+1) Thống kê số lần truy cập Internet của 30 người trong một tuần là: 
+ 
+Lập bảng tần số ghép nhóm của mẫu số liệu đó sau khi được ghép nhóm theo sáu nhóm sau: [30;40), 
+[40;50), [50;60), [60;70), [70;80), [80;90). Tìm tần số tương đối ghép nhóm. 
+2) Một hình tròn được chia thành 10 hình quạt như nhau, được đánh số như hình bên và được gắn vào trục 
+quay có mũi tên cố định ở tâm. 
+Xét phép thử “Quay đĩa tròn một lần” và biến cố A: “Mũi tên chỉ vào các số La Mã”. 
+Tính xác suất của biến cố A. 
+ 
+Câu 2: (1,5 điểm) Cho biểu thức 
+x
+A
+x
+3
+=
+−
+; 
+(
+)(
+)
+7
+12
+B
+x
+1
+x
+1 3
+x
+=
+−
++
++
+−
+ với x
+0
+
+; x
+9
+
+. 
+1) Tính giá trị của A khi 
+9
+x
+4
+=
+. 
+2) Rút gọn M
+A
+B
+=
+−
+. 
+3) Tìm các giá trị của x sao cho 
+2
+25
+M
+4
+
+. 
+Câu 3: (2,5 điểm) 
+1) Một trường THCS tổ chức cho 250 người bao gồm giáo viên và học sinh đi tham quan khu du lịch Đảo 
+Ngọc Xanh. Biết giá vé vào cổng của một giáo viên là 80 000 đồng, vé vào cổng của một học sinh là 60 000 
+đồng. Nhà trường tổ chức đi vào đúng dịp Khai trương nên được giảm giá 5% cho mỗi vé vào cổng, vì vậy 
+nhà trường chỉ phải trả tổng số tiền là 14 535 000 đồng. Hỏi có bao nhiêu giáo viên và học sinh của trường 
+đi tham quan? 
+ĐỀ THAM KHẢO THI TUYỂN SINH VÀO 10 – ĐỀ SỐ 5 
+MÔN TOÁN 
+Thời gian: 120 phút 
+BIÊN SOẠN: BAN CHUYÊN MÔN LOIGIAIHAY.COM 

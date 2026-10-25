@@ -23,35 +23,97 @@ const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
-// API: List lessons
-app.get('/api/weeks', (req, res) => {
-  const lessonsDir = path.join(__dirname, 'lessons');
+// Helper: Scan lessons folder
+function getWeeksForSubject(subject) {
+  const lessonsDir = path.join(__dirname, subject, 'lessons');
   if (!fs.existsSync(lessonsDir)) {
-    return res.json([]);
+    // Fallback if legacy folder still exists
+    const legacyDir = path.join(__dirname, 'lessons');
+    if (subject === 'english' && fs.existsSync(legacyDir)) {
+      const weeks = fs.readdirSync(legacyDir).filter(f => fs.statSync(path.join(legacyDir, f)).isDirectory());
+      return weeks.map(week => {
+        const weekPath = path.join(legacyDir, week);
+        const days = fs.readdirSync(weekPath).filter(f => fs.statSync(path.join(weekPath, f)).isDirectory());
+        return { week, days };
+      });
+    }
+    return [];
   }
   const weeks = fs.readdirSync(lessonsDir).filter(f => fs.statSync(path.join(lessonsDir, f)).isDirectory());
-  const data = weeks.map(week => {
+  return weeks.map(week => {
     const weekPath = path.join(lessonsDir, week);
     const days = fs.readdirSync(weekPath).filter(f => fs.statSync(path.join(weekPath, f)).isDirectory());
     return { week, days };
   });
-  res.json(data);
+}
+
+// API: Multi-subject catalog
+app.get('/api/subjects', (req, res) => {
+  const englishWeeks = getWeeksForSubject('english');
+  const mathWeeks = getWeeksForSubject('math');
+
+  // Math Topics
+  const mathTopicsDir = path.join(__dirname, 'math', 'topics');
+  let mathTopics = [];
+  if (fs.existsSync(mathTopicsDir)) {
+    mathTopics = fs.readdirSync(mathTopicsDir)
+      .filter(f => fs.statSync(path.join(mathTopicsDir, f)).isDirectory())
+      .map(t => {
+        const readmePath = path.join(mathTopicsDir, t, 'README.md');
+        let title = t;
+        if (fs.existsSync(readmePath)) {
+          const firstLine = fs.readFileSync(readmePath, 'utf-8').split('\n')[0];
+          title = firstLine.replace(/^#\s*/, '').trim() || t;
+        }
+        return { slug: t, title };
+      });
+  }
+
+  // Math Cheatsheets
+  const cheatsheetsDir = path.join(__dirname, 'math', 'cheatsheets');
+  let mathCheatsheets = [];
+  if (fs.existsSync(cheatsheetsDir)) {
+    mathCheatsheets = fs.readdirSync(cheatsheetsDir)
+      .filter(f => f.endsWith('.md'))
+      .map(f => ({
+        filename: f,
+        name: f.replace('.md', '').replace(/-/g, ' ')
+      }));
+  }
+
+  res.json({
+    english: {
+      name: "Tiếng Anh (CEFR A1–A2)",
+      weeks: englishWeeks
+    },
+    math: {
+      name: "Toán Học (Lớp 9 & Vào 10)",
+      weeks: mathWeeks,
+      topics: mathTopics,
+      cheatsheets: mathCheatsheets
+    }
+  });
 });
 
-// Markdown viewer route
-app.get('/lessons/:week/:day/:file', (req, res) => {
-  const filePath = path.join(__dirname, 'lessons', req.params.week, req.params.day, req.params.file);
-  if (!fs.existsSync(filePath)) {
-    return res.status(404).send('File not found');
-  }
-  const mdContent = fs.readFileSync(filePath, 'utf-8');
+// API: Subject-specific weeks
+app.get('/api/:subject/weeks', (req, res) => {
+  res.json(getWeeksForSubject(req.params.subject));
+});
+
+// Backward-compatible API
+app.get('/api/weeks', (req, res) => {
+  res.json(getWeeksForSubject('english'));
+});
+
+// Helper: Render markdown document with MathJax & GitHub dark theme
+function renderMarkdownPage(res, title, mdContent) {
   const htmlContent = marked.parse(mdContent);
   res.send(`
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="vi">
     <head>
       <meta charset="UTF-8">
-      <title>${req.params.file} - Nephew English</title>
+      <title>${title} - Bum Study Hub</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-dark.min.css">
       <style>
@@ -60,30 +122,93 @@ app.get('/lessons/:week/:day/:file', (req, res) => {
           color: #c9d1d9;
           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
           padding: 20px;
-          max-width: 860px;
+          max-width: 900px;
           margin: 0 auto;
         }
         .nav-back {
-          margin-bottom: 20px;
+          margin-bottom: 24px;
+          display: flex;
+          align-items: center;
+          gap: 12px;
         }
         .nav-back a {
           color: #58a6ff;
           text-decoration: none;
-          font-weight: bold;
+          font-weight: 600;
+          padding: 6px 14px;
+          background: #161b22;
+          border: 1px solid #30363d;
+          border-radius: 6px;
+          transition: all 0.2s;
+        }
+        .nav-back a:hover {
+          background: #1f242c;
+          border-color: #58a6ff;
         }
         .markdown-body {
           background-color: transparent !important;
+          line-height: 1.65;
+        }
+        details summary {
+          cursor: pointer;
+          font-weight: 600;
+          color: #58a6ff;
         }
       </style>
+      <script>
+        window.MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],
+            displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']]
+          }
+        };
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
     </head>
     <body>
-      <div class="nav-back"><a href="/">← Back to Dashboard</a></div>
+      <div class="nav-back">
+        <a href="/">← Trở Về Dashboard</a>
+      </div>
       <article class="markdown-body">
         ${htmlContent}
       </article>
     </body>
     </html>
   `);
+}
+
+// Subject-scoped lesson viewer route
+app.get('/lessons/:subject/:week/:day/:file', (req, res) => {
+  const filePath = path.join(__dirname, req.params.subject, 'lessons', req.params.week, req.params.day, req.params.file);
+  if (!fs.existsSync(filePath)) {
+    return res.status(404).send('File not found: ' + filePath);
+  }
+  const mdContent = fs.readFileSync(filePath, 'utf-8');
+  renderMarkdownPage(res, req.params.file, mdContent);
+});
+
+// General Markdown Viewer for topics, cheatsheets, assessments, and exams
+app.get('/view/:subject/*', (req, res) => {
+  const relPath = req.params[0];
+  const filePath = path.join(__dirname, req.params.subject, relPath);
+  if (!fs.existsSync(filePath) || !fs.statSync(filePath).isFile()) {
+    return res.status(404).send('File not found: ' + filePath);
+  }
+  const mdContent = fs.readFileSync(filePath, 'utf-8');
+  renderMarkdownPage(res, path.basename(filePath), mdContent);
+});
+
+// Backward-compatible lesson viewer route for english
+app.get('/lessons/:week/:day/:file', (req, res) => {
+  let filePath = path.join(__dirname, 'english', 'lessons', req.params.week, req.params.day, req.params.file);
+  if (!fs.existsSync(filePath)) {
+    filePath = path.join(__dirname, 'lessons', req.params.week, req.params.day, req.params.file);
+  }
+  if (!fs.existsSync(filePath)) {
+    return res.status(404).send('File not found');
+  }
+  const mdContent = fs.readFileSync(filePath, 'utf-8');
+  renderMarkdownPage(res, req.params.file, mdContent);
 });
 
 // Gemini Live WebSocket bridge for Buddy Leo
@@ -147,5 +272,5 @@ wss.on('connection', async (ws, req) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`Nephew English Hub running on http://localhost:${PORT}`);
+  console.log(`Bum Study Hub running on http://localhost:${PORT}`);
 });

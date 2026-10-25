@@ -26,7 +26,10 @@ import json
 import random
 import argparse
 
-REGISTRY_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "graduation exam", "question-registry.json")
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+REGISTRY_PATH = os.path.join(REPO_ROOT, "english", "exams", "question-registry.json")
+if not os.path.exists(REGISTRY_PATH):
+    REGISTRY_PATH = os.path.join(REPO_ROOT, "graduation exam", "question-registry.json")
 
 def load_registry():
     if not os.path.exists(REGISTRY_PATH):

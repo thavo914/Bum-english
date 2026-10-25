@@ -243,9 +243,14 @@ def classify_question(q_text, section, options_text):
     return category, sub_category, level, bloom, topic, bum_week
 
 def process_all_exams():
-    md_dir = r'c:\Users\Admin\source\repos\nephew-english\graduation exam\md'
-    out_json = r'c:\Users\Admin\source\repos\nephew-english\graduation exam\question-registry.json'
-    out_md = r'c:\Users\Admin\source\repos\nephew-english\graduation exam\QUESTION_REGISTRY.md'
+    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    target_dir = os.path.join(repo_root, 'english', 'exams')
+    if not os.path.exists(target_dir):
+        target_dir = os.path.join(repo_root, 'graduation exam')
+
+    md_dir = os.path.join(target_dir, 'md')
+    out_json = os.path.join(target_dir, 'question-registry.json')
+    out_md = os.path.join(target_dir, 'QUESTION_REGISTRY.md')
 
     files = sorted([f for f in os.listdir(md_dir) if f.endswith('.md')])
     print(f"Indexing questions from {len(files)} exams...")
