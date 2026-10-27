@@ -16,15 +16,18 @@ Kho tài liệu và bài tập Toán được thiết kế riêng nhằm giúp B
 
 ```
 math/
-├── topics/                     # 📚 KHO LÝ THUYẾT & DẠNG TOÁN CHUYÊN ĐỀ
-│   ├── 01-can-thuc-va-bien-doi/
-│   ├── 02-ham-so-bac-nhat-va-do-thi/
-│   ├── 03-he-phuong-trinh-bac-nhat/
-│   ├── 04-phuong-trinh-bac-hai-va-viet/
-│   ├── 05-toan-thuc-te/
-│   ├── 06-hinh-hoc-phang-lop-9/
-│   ├── 07-hinh-khong-gian/
-│   └── 08-bat-dang-thuc-cuc-tri/
+├── topics/                     # 📚 KHO LÝ THUYẾT & DẠNG TOÁN CHUYÊN ĐỀ (PDF & Markdown)
+│   ├── 01-can-thuc-va-bien-doi/           # Căn thức & rút gọn biểu thức
+│   ├── 02-ham-so-va-do-thi/               # Hàm số bậc nhất & Parabol tương giao
+│   ├── 03-he-phuong-trinh-bac-nhat/       # Hệ phương trình & tham số m
+│   ├── 04-phuong-trinh-bac-hai-va-viet/   # PT bậc hai & định lý Vi-ét
+│   ├── 05-giai-toan-bang-cach-lap-pt-hpt/ # Giải toán bằng cách lập PT/HPT
+│   ├── 06-toan-thuc-te-va-tai-chinh/      # Toán thực tế lớp 9 & lãi suất phần trăm
+│   ├── 07-thong-ke/                       # Thống kê, bảng tần số ghép nhóm (Mới)
+│   ├── 08-xac-suat/                       # Xác suất cổ điển & thực nghiệm (Mới)
+│   ├── 09-hinh-khoi-thuc-te/              # Hình trụ, hình nón, hình cầu
+│   ├── 10-hinh-hoc-phang-lop-9/           # Góc với đường tròn, tứ giác nội tiếp
+│   └── 11-bat-dang-thuc-cuc-tri/          # BĐT Cô-si & cực trị (Điểm 10)
 │
 ├── lessons/                    # 🗓️ LỘ TRÌNH LUYỆN TẬP THEO TUẦN / NGÀY (Hệ thống 2-file)
 │   ├── week-01-can-thuc-dai-so/
@@ -49,18 +52,21 @@ math/
 
 ---
 
-## ⚡ 8 Chuyên Đề Trọng Tâm Ôn Thi Vào 10
+## ⚡ 11 Chuyên Đề Trọng Tâm Ôn Thi Vào 10 (Chuẩn GDPT 2018)
 
 | Chuyên Đề | Nội Dung Trọng Tâm | Tỷ Trọng Trong Đề Thi |
 | :--- | :--- | :---: |
-| **01. Căn Thức** | Rút gọn biểu thức, tính giá trị, so sánh, tìm $x$ nguyên | 1.5 – 2.0 điểm |
-| **02. Hàm Số & Đồ Thị** | Đồ thị $y = ax+b$, vị trí tương đối giữa 2 đường thẳng | 0.5 – 1.0 điểm |
-| **03. Hệ Phương Trình** | Phương pháp thế, cộng đại số, giải bài toán bằng cách lập hệ | 1.0 – 1.5 điểm |
-| **04. PT Bậc Hai & Vi-ét** | Công thức nghiệm, định lý Vi-ét, tương giao Parabol & Đường thẳng | 1.5 – 2.0 điểm |
-| **05. Toán Thực Tế** | Chuyển động, năng suất, kinh tế - lãi suất, bài toán thực tiễn | 1.0 – 1.5 điểm |
-| **06. Hình Học Phẳng** | Hệ thức lượng tam giác vuông, đường tròn, tứ giác nội tiếp | 3.0 – 3.5 điểm |
-| **07. Hình Không Gian** | Thể tích, diện tích xung quanh hình trụ, hình nón, hình cầu | 0.5 – 1.0 điểm |
-| **08. Bất Đẳng Thức / Cực Trị**| Bất đẳng thức Cô-si, Cauchy-Schwarz, điểm rơi (Câu phân loại điểm 10) | 0.5 điểm |
+| **01. Căn Thức & Rút Gọn** | Rút gọn biểu thức chứa biến, tính giá trị, tìm $x$ nguyên | 1.5 – 2.0 điểm |
+| **02. Hàm Số & Đồ Thị** | Đồ thị $y = ax+b$, Parabol $y = ax^2$, tương giao $d$ và $P$ | 1.0 – 1.5 điểm |
+| **03. Hệ Phương Trình** | Phương pháp thế, cộng đại số, đặt ẩn phụ, tham số $m$ | 1.0 điểm |
+| **04. PT Bậc Hai & Vi-ét** | Công thức nghiệm, định lý Vi-ét đối xứng & bất đối xứng | 1.5 – 2.0 điểm |
+| **05. Lập PT & Hệ PT** | Toán chuyển động, năng suất, quan hệ số, làm chung - riêng | 1.5 – 2.0 điểm |
+| **06. Toán Thực Tế & Tài Chính** | Lãi suất phần trăm, mua sắm khuyến mãi, tiền điện nước, tối ưu | 1.0 – 1.5 điểm |
+| **07. Thống Kê (Mới)** | Bảng tần số ghép nhóm, tần số tương đối, biểu đồ Histogram | 0.5 – 1.0 điểm |
+| **08. Xác Suất (Mới)** | Không gian mẫu, xác suất biến cố cổ điển & thực nghiệm | 0.5 – 1.0 điểm |
+| **09. Hình Khối Thực Tế** | Diện tích xung quanh, thể tích hình trụ, hình nón, hình cầu | 0.5 – 1.0 điểm |
+| **10. Hình Học Phẳng 9** | Hệ thức lượng, đường tròn, tứ giác nội tiếp, tam giác đồng dạng | 3.0 – 3.5 điểm |
+| **11. Bất Đẳng Thức / Cực Trị**| Bất đẳng thức Cô-si, Cauchy-Schwarz, chọn điểm rơi (Điểm 10) | 0.5 điểm |
 
 ---
 
