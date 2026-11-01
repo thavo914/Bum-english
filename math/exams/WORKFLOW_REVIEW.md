@@ -60,6 +60,40 @@ py scripts/query_math_registry.py --keyword "parabol"
 ### Bước 3: Xuất Đề Luyện Tập Cá Nhân Hóa Cho Bum
 Hệ thống hỗ trợ xuất trực tiếp một bài kiểm tra theo cấp độ mong muốn:
 
+Pull Latest Exercise From Main
+keo bai tap moi nhat tu nhanh main github
+6:17 PM
+Đã kéo toàn bộ bài tập và dữ liệu mới nhất từ nhánh main trên GitHub về máy của bạn thành công.
+
+1. Thao tác đã thực hiện
+Chạy git fetch origin để lấy 2 commit mới nhất từ nhánh main từ GitHub (b614ac9 và 313b942).
+Lưu trữ an toàn (git stash) các thay đổi dở dang trước đó trên nhánh week-03.
+Chuyển sang nhánh main (git checkout main) và tích hợp toàn bộ thay đổi mới nhất từ origin/main. Hiện tại nhánh main đã ở trạng thái sạch (working tree clean).
+2. Các nội dung & bài tập mới nhất vừa được cập nhật
+📚 Môn Toán (Thư mục mới math/)
+Tuần 01 - Căn thức đại số:
+
+
+01-kien-thuc-va-phuong-phap.md
+: Lý thuyết và phương pháp giải.
+
+
+02-bai-tap-thuc-chien.md
+: Hệ thống bài tập thực chiến có đáp án và lời giải.
+
+
+week-overview.md
+: Lộ trình ôn luyện tuần 1.
+Kho đề thi thử & chính thức vào lớp 10:
+Bộ 21 đề thi vào 10 môn Toán (Hà Nội, TP.HCM 2025 kèm lời giải chi tiết) dưới dạng Markdown và PDF trong thư mục 
+
+math/exams/
+.
+Ngân hàng câu hỏi trích xuất tự động: 
+
+math-question-registry.json
+.
+
 ```bash
 # Xuất đề luyện tập 5 câu mức độ Vận dụng (Level 3 - Mục tiêu 8.0đ):
 py scripts/query_math_registry.py --difficulty 3 --random --limit 5 --export-quiz "math/assessments/de-luyen-tap-level-3.md"
