@@ -8,24 +8,28 @@ Use this workflow to generate the 2 daily lesson files for any designated day (`
 
 ---
 
-## 🎯 Target Persona & Level Constraints
-- **Audience**: **Bum**, a 14-year-old student (Grade 8 / 9, Secondary School / THCS).
-- **Target Level**: Strictly **CEFR A1–A2** (Elementary / Pre-intermediate).
-- **Tone**: Cool, relatable, encouraging (gaming, tech, football, friends, school life, snacks, anime).
+## 🎯 Target Persona & Level Constraints (Cơ Chế Phân Tầng 2 Giai Đoạn)
+
+- **Audience**: **Bum**, a 14-year-old student (Grade 8 / 9, Secondary School / THCS chuẩn bị thi vào lớp 10 THPT).
+- **Target Level (Theo giai đoạn tuần học)**:
+  - 🟢 **Giai đoạn 1 (Tuần 1 – Tuần 3 - Khởi động nền tảng)**: CEFR A1–A2. Câu ngắn, từ vựng quen thuộc, bài tập nhận biết cơ bản có Word Bank trợ giúp.
+  - 🚀 **Giai đoạn 2 (Tuần 4 – Tuần 10 - Bứt phá Đề thi Tuyển sinh)**: CEFR A2 → A2+ / Tiệm cận B1. Đẩy mạnh tự luận sản sinh (Productive Writing), Cấu tạo từ (Word Formation không có Word Bank), phân tích ngữ cảnh hội thoại đa lượt lời, tra cứu mục từ điển và sắp xếp câu logic theo chuẩn đề thi Hà Nội & TP.HCM mới nhất.
+- **Tone**: Cool, relatable, encouraging (gaming, tech gadgets, football, friends, school life, snacks, anime).
 - **Strictly Avoid**: Toddler baby talk, academic jargon, and adult corporate buzzwords.
 - **Time Commitment**: 30–35 minutes total (10 mins reading knowledge, 15 mins exercises, 5–10 mins speaking with AI Buddy Leo).
 
+---
+
 ### 🎓 3 Core Principles for Exercise Quality:
-1. **Bám Sát Đề Thi Mẫu (Exam Pattern Alignment)**:
-   - Part 2 và Part 3 phải mô phỏng chính xác cấu trúc đề thi tuyển sinh vào lớp 10 chính thức từ ngân hàng câu hỏi `graduation exam/question-registry.json` (Trắc nghiệm 4 lựa chọn A/B/C/D, Viết lại câu có mũi tên gợi ý `→`, Biến đổi từ loại `(CAPITALS)`).
-   - Tham khảo và tra cứu câu hỏi mẫu bằng lệnh: `py scripts/query_registry.py --category <dạng> --level A2`.
+1. **Bám Sát Đề Thi Mẫu Chuẩn Hybrid (Hà Nội & TP.HCM)**:
+   - Part 2 và Part 3 phải mô phỏng chính xác cấu trúc đề thi tuyển sinh vào lớp 10 chính thức từ ngân hàng câu hỏi `graduation exam/question-registry.json` (Trắc nghiệm hội thoại đời sống, Biến đổi từ loại `(CAPITALS)`, Tra cứu mục từ điển, Viết lại câu tự luận).
+   - Tra cứu câu hỏi mẫu: `& "C:\Users\Admin\AppData\Local\Programs\Python\Python312\python.exe" scripts/query_registry.py --category <dạng> --level A2`.
 2. **Nhắc Lại Lỗi Sai Có Chọn Lọc (Targeted Error Rematch & Anti-Repetition)**:
    - Trước khi tạo bài tập, luôn kiểm tra sổ theo dõi lỗi sai [assessments/MISTAKE_LOG.md](file:///c:/Users/Admin/source/repos/nephew-english/assessments/MISTAKE_LOG.md).
    - **Chỉ chọn các lỗi đang có trạng thái 🔴 Active hoặc 🟡 In-Review**.
    - **TUYỆT ĐỐI KHÔNG lặp lại các lỗi đã 🟢 Mastered**: Khi Bum đã nhớ dạng bài và làm chủ kiến thức ở bài test tuần, dừng việc tạo câu hỏi phục thù cho dạng đó để tránh nhàm chán.
-   - Mỗi file bài tập hàng ngày chỉ cần 1 câu "Thử Thách Phục Thù (Rematch Challenge)" thuộc nhóm 🔴 Active để củng cố phản xạ.
 3. **Tránh Trùng Lặp (Context Variety)**:
-   - Đảm bảo câu hỏi có ngữ cảnh mới mẻ, thay đổi tình huống giữa các ngày (ví dụ: Day 1 về game co-op, Day 2 về so sánh đồ công nghệ, Day 3 về đồ ăn vặt căng-tin, Day 4 về đá bóng, Day 5 về rủ rê xem phim).
+   - Đảm bảo câu hỏi có ngữ cảnh mới mẻ, thay đổi tình huống giữa các ngày (ví dụ: Day 1 về thói quen buổi sáng, Day 2 về robot dọn phòng & smartwatch, Day 3 về cai doomscrolling, Day 4 về thuyết trình dự án công nghệ, Day 5 về thử thách 24h).
    - Tuyệt đối không sao chép nguyên văn câu mẫu từ phần Knowledge sang phần Bài tập.
 
 ---
@@ -34,18 +38,15 @@ Use this workflow to generate the 2 daily lesson files for any designated day (`
 For the target week `<N>` and day `<M>`, generate exactly two files:
 ```
 lessons/week-<N>/day-<M>/
-├── 01-knowledge.md      # Definitions, 5 target words, 1 grammar bite, mini dialogue
-└── 02-exercises.md      # Puzzles, exam-pattern builder, sentence rewriting, error rematch, AI voice mission, answers
+├── 01-knowledge.md      # Definitions, Target words/Word families, Grammar bite & traps, Dialogue
+└── 02-exercises.md      # Word formation/match, Exam-pattern builder, Practical format, Sentence rewrite, Rematch, AI voice mission
 ```
-
-> 💡 **Weekly Checkpoint Assessment**: Sau khi hoàn thành Day 5, sử dụng workflow `/generate-weekly-assessment` để tạo bài kiểm tra tổng hợp 30 câu hỏi tại `assessments/test-week-<N>.md` nhằm đo lường sự tiến bộ và cập nhật trạng thái lỗi sai trong [assessments/MISTAKE_LOG.md](file:///c:/Users/Admin/source/repos/nephew-english/assessments/MISTAKE_LOG.md).
 
 ---
 
 ## 📝 File 1: `01-knowledge.md` Structure
 
-Every `01-knowledge.md` must follow this standardized template:
-
+### 🔹 Dành Cho Tuần 4 Trở Đi (Giai Đoạn Bứt Phá Đề Thi):
 ```markdown
 # Day <M>: <Engaging Teen Title with Icon> 🎮
 
@@ -53,21 +54,20 @@ Brief 1-sentence friendly intro explaining what the student will learn today.
 
 ---
 
-## 1. Word Power (5 Words for Today)
+## 1. Word Power & Word Family Tree (Từ Vựng & Bảng Họ Từ)
 
-> 💡 **Đa Dạng Loại Từ (Word Class Diversity)**: 5 từ mục tiêu mỗi ngày nên phân bổ đa dạng gồm **Danh từ (n)**, **Động từ (v)**, **Tính từ (adj)** và **Cụm động từ (phrasal verb)** để chuẩn bị phản xạ cho câu hỏi Word Form và Cụm từ trong đề thi tuyển sinh lớp 10.
-
-| Word | Loại từ (Type) | Pronunciation (IPA) | Vietnamese Meaning | Example Sentence |
+| Từ gốc (Base Word) | Phiên âm (IPA) | Nghĩa tiếng Việt | Họ từ liên quan (Word Family) | Ví dụ ngữ cảnh teen |
 | :--- | :---: | :--- | :--- | :--- |
-| **<word 1>** | *(n) - danh từ* | /.../ | <nghĩa tiếng Việt gần gũi> | *<Teen example sentence in gaming, school, or friends>* |
-| **<word 2>** | *(v) - động từ* | /.../ | ... | ... |
-| **<word 3>** | *(adj) - tính từ* | /.../ | ... | ... |
-| **<word 4>** | *(phr v) - cụm động từ* | /.../ | ... | ... |
-| **<word 5>** | *(n/v) - danh/động từ* | /.../ | ... | ... |
+| **<word 1>** *(v)* | /.../ | <nghĩa> | • **<Noun>**: <nghĩa><br>• **<Adj>**: <nghĩa> | *<Teen example>* |
+| **<word 2>** *(adj)* | /.../ | <nghĩa> | • **<Adv>**: <nghĩa><br>• **<Noun>**: <nghĩa> | ... |
+| **<word 3>** *(n)* | /.../ | <nghĩa> | • **<Adj>**: <nghĩa><br>• **<Opposite Adj>**: <nghĩa> | ... |
+| **<word 4>** *(phr v)* | /.../ | <nghĩa> | • **<Collocation>**: <cụm đi kèm> | ... |
+| **<word 5>** *(adj/v)* | /.../ | <nghĩa> | • **<Derived form>**: <từ phái sinh> | ... |
 
-> 💡 **Mở rộng cụm động từ & từ loại liên quan**:  
-> • **<phrasal verb>** *(phr v)*: <ý nghĩa>  
-> • **<derived word>** *(adj/n)*: <ý nghĩa>
+> 💡 **Mẹo Soi Vị Trí Từ Loại Trong Đề Thi (Part of Speech Clues)**:
+> - Sau tính từ sở hữu (*my, your, their*) hoặc mạo từ (*a, an, the*) + tính từ → cần một **DANH TỪ (Noun)**.
+> - Sau động từ to-be (*is, are, was, were*) hoặc động từ chỉ cảm giác (*feel, look, seem*) → cần một **TÍNH TỪ (Adj)**.
+> - Đứng sau động từ thường hoặc đứng đầu/cuối câu bổ nghĩa cho cả hành động → cần một **TRẠNG TỪ (Adv đuôi -ly)**.
 
 ---
 
@@ -80,104 +80,134 @@ Explain the grammar rule in simple, crystal-clear terms with zero academic bloat
   - *<Clear Example 1>*
   - *<Clear Example 2>*
 
-### ⚠️ Watch Out! (Bẫy đề thi hay gặp):
-> 💡 **Watch out**: <Chỉ rõ bẫy ngữ pháp thường gặp trong đề thi lớp 10 hoặc lỗi Bum hay mắc, ví dụ: "Chủ ngữ ghép 'My brother and I' là 2 người -> dùng ARE chứ không chia AM theo chữ I đứng sát cạnh! ❌">
+### ⚠️ Watch Out! (Bẫy Đề Thi Tuyển Sinh Hay Ra):
+> 💡 **Watch out**: <Chỉ rõ bẫy ngữ pháp thường gặp trong đề thi lớp 10 hoặc lỗi Bum hay mắc, ví dụ: "Sau 'look forward to' bắt buộc là V-ing chứ KHÔNG dùng V-nguyên mẫu! ❌">
 
 ---
 
-## 3. Mini-Dialogue: <Lively Teen Scenario> 🎧
-A 4-line realistic dialogue between two friends or with AI Buddy Leo using today's words and grammar.
-- **<Character A>**: "..."
-- **<Character B>**: "..."
-- **<Character A>**: "..."
-- **<Character B>**: "..."
+## 3. Real-Life Teen Dialogue (Hội Thoại Đời Sống 6-8 Lượt Lời) 🎧
+Đoạn thoại tự nhiên giữa Bum và bạn bè/AI Leo có chiều sâu, tranh luận hoặc đưa lời khuyên:
+- **Bum**: "..."
+- **Leo**: "..."
+- **Bum**: "..."
+- **Leo**: "..."
+- **Bum**: "..."
+- **Leo**: "..."
 ```
+
+*(Nếu là Tuần 1-3: Sử dụng bảng 5 từ đơn giản nguyên bản).*
 
 ---
 
 ## 📝 File 2: `02-exercises.md` Structure
 
-Every `02-exercises.md` must follow this standardized template:
+### 🔹 Dành Cho Tuần 4 Trở Đi (Chuẩn 4 Tầng Thử Thách Nâng Cấp):
 
 ```markdown
 # Day <M>: Interactive Exercises & AI Mission 🚀
 
-Complete these challenges to earn your 3 Stars today!
+Hoàn thành 5 phần thử thách dưới đây để thu thập trọn vẹn 3 Ngôi Sao (⭐⭐⭐) ngày hôm nay!
 
 ---
 
-## Part 1: Word Match & Context Fill-in (Warm-up)
-Word bank of 5 target words. 5 sentences with blanks set in authentic teen situations.
+## Part 1: Word Formation Challenge (Tự Biến Đổi Từ Loại - KHÔNG Word Bank) 🧩
+*Đọc câu và biến đổi từ trong ngoặc `(IN HOA)` thành dạng Danh từ / Tính từ / Trạng từ phù hợp:*
+
+1. Teenagers should develop __________ habits to maintain daily energy. (HEALTH)
+2. We are looking forward to __________ our new robotics project next week. (PRESENT)
+3. You acted __________ when you forgot to turn off the air conditioner. (CARE)
+4. The cleaning robot runs __________ and saves us a lot of time. (AUTOMATIC)
+5. My older brother made a sudden __________ to switch his gaming gear. (DECIDE)
 
 ---
 
-## Part 2: Grammar Builder (Form Chuẩn Đề Thi Tuyển Sinh) 🎯
-*5 câu hỏi trắc nghiệm A, B, C, D mô phỏng chính xác form đề thi vào lớp 10, tập trung vào cấu trúc ngữ pháp hôm nay.*
+## Part 2: Conversational Exam Builder (Trắc Nghiệm Hội Thoại & Câu Ghép) 🎯
+*Chọn đáp án đúng nhất (A, B, C hoặc D) mô phỏng các câu hỏi hội thoại và câu ghép của Đề Hà Nội & TP.HCM:*
 
-#### Question 1
-<Sentence with blank ______>
-- A. <Option A>
-- B. <Option B>
-- C. <Option C>
-- D. <Option D>
+#### Question 1 (Đối thoại đời sống)
+Khoa: "Where should I put the extra batteries for the wireless controller?"  
+Bum: "You'd better put them ________ the top drawer."
+- A. at
+- B. in
+- C. to
+- D. on
 
-... (Question 2 đến 5)
+#### Question 2 (Cụm động từ bẫy)
+Don't forget to ________ the lights and monitor before leaving your room.
+- A. turn off
+- B. look for
+- C. run out of
+- D. pick up
 
----
-
-## Part 3: Sentence Transformation & Mini-Translation (Viết Lại Câu & Dịch) ✏️
-*3-4 câu luyện phản xạ diễn đạt và biến đổi câu theo form đề thi chính thức.*
-
-1. <Vietnamese teen situation to translate into English>
-   → __________________________________________________
-2. <Sentence transformation with prompt: e.g. "Ted worked hard, so he got high marks.">
-   → Because __________________________________________
-3. <Sentence transformation or sentence builder from word prompts>
-   → __________________________________________________
-
----
-
-## Part 4: Thử Thách Phục Thù (Rematch Challenge - Real Exam Question) 🥊
-*1 câu hỏi được trích xuất hoặc mô phỏng từ đề thi thật các tỉnh (tham khảo `graduation exam/question-registry.json`), chỉ nhắm vào 1 lỗi có trạng thái 🔴 **Active** trong [assessments/MISTAKE_LOG.md](file:///c:/Users/Admin/source/repos/nephew-english/assessments/MISTAKE_LOG.md). (Các lỗi đã 🟢 Mastered sẽ không lặp lại).*
-
-#### Câu Phục Thù 1 *(Lấy cảm hứng từ Đề thi <Tỉnh> <Năm>)*
-<Question stem targeting Bum's known mistake>
-- A. ...
-- B. ...
-- C. ...
-- D. ...
-💡 *Gợi ý phục thù*: <Gợi ý ngắn 1 dòng nhắc Bum nhớ lại bẫy mà cháu từng vấp phải>
+#### Question 3 (Liên từ & Điều kiện)
+...
+#### Question 4 (Mệnh đề quan hệ / Đại từ)
+...
+#### Question 5 (Phản xạ giao tiếp xã hội)
+...
 
 ---
 
-## Part 5: AI Voice Mission with Leo 🎙️
-An interactive prompt for the student to speak with ChatGPT Voice Mode or Gemini Live Buddy Leo:
-> **Your Mission Prompt**:  
-> *"Hey Leo! I am 14 years old. Today I learned about [Topic]. Ask me 3 quick questions about [Topic] in simple English!"*
+## Part 3: Real-World Exam Formats (Biển Báo / Từ Điển / Sắp Xếp Câu) 📋
+*(Luân phiên giữa các ngày: Day 1 & 2 làm Biển báo/Tin nhắn, Day 3 làm Tra cứu từ điển, Day 4 làm Sắp xếp câu).*
+
+#### Dạng Tra Cứu Từ Điển (Mẫu Day 3 - Đề TP.HCM Q35-36):
+> ### 📖 Dictionary Entry: habit /ˈhæbɪt/ (noun)
+> 1. a thing that you do often and almost without thinking:
+>    - It's not easy for children to **break the habit** of using digital devices while having meals.
+>    - Healthy **eating habits** play an important role in overall health.
+
+1. Bum is trying to ______________________ of staying up late to play games. (Không quá 3 từ)
+2. Proper ______________________ can help students stay awake during morning classes. (Không quá 3 từ)
+
+---
+
+## Part 4: Open Sentence Transformation & Rematch (Tự Luận Viết Lại Câu) ✏️
+*Viết lại các câu sau sao cho nghĩa không đổi, sử dụng cấu trúc chuẩn đề thi:*
+
+1. Bum doesn't have a smartwatch, and he really wants to have one.  
+   → Bum wishes _______________________________________________________________.
+2. Lucie doesn't mind helping her friends with math exercises after class.  
+   → It doesn't matter to Lucie to ______________________________________________.
+3. Our wireless mouse has run out of battery.  
+   → There is no battery left __________________________________________________.
+4. *(Rematch Challenge - Lỗi 🔴 Active)*: Câu trích từ ngân hàng đề thi thật kiểm tra 1 lỗi Bum cần phục thù.
+
+---
+
+## Part 5: AI Voice Mission with Leo (Tranh Luận & Phản Xạ Nói 2 Chiều) 🎙️
+
+Mở ChatGPT Voice Mode hoặc Gemini Live và cùng Leo thảo luận về chủ đề hôm nay:
+> 💬 **Your Mission Prompt**:  
+> *"Hey Leo! Today I'm learning about building smart daily habits and managing screen time. Challenge me by asking why playing games late at night is bad, and I will persuade you with my new daily schedule!"*
 
 **Speaking Checklist**:
-- [ ] Checklist item 1 (use 2 target words)
-- [ ] Checklist item 2 (use today's grammar pattern)
+- [ ] Dùng ít nhất 2 từ trong bảng Word Power (*healthy, routine, convenient, alert, habit*).
+- [ ] Dùng cấu trúc ngữ pháp hôm nay (*"I wish...", "I'm looking forward to..."*).
+- [ ] Phản hồi ít nhất 3 lượt đối đáp bằng tiếng Anh cùng Leo.
 
 ---
 
 <details>
-<summary>Click to reveal Answer Key 🔍</summary>
+<summary>Click to reveal Answer Key & Barem Chấm Điểm 🔍</summary>
 
-### Part 1 Answers:
-1. ...
-2. ...
+### Part 1 Answers (Word Formation):
+1. **healthy** *(Tính từ bổ nghĩa cho danh từ 'habits')*
+2. **presenting** *(Sau 'look forward to' + V-ing)*
+...
 
-### Part 2 Answers:
-1. **<A/B/C/D>** - *<Giải thích ngắn gọn 1 câu>*
-2. ...
+### Part 2 Answers (Conversational MCQs):
+1. **B** - *Vị trí bên trong ngăn kéo dùng giới từ 'in'*
+...
 
-### Part 3 Suggested Translations:
-1. ...
-2. ...
+### Part 3 Answers (Real-World Format):
+1. **break the habit**
+2. **eating habits**
 
-### Part 4 Rematch Answer:
-1. **<Đáp án đúng>** - *<Giải thích tại sao tránh được bẫy cũ>*
+### Part 4 Answers (Sentence Transformation):
+1. **he had a smartwatch** *(Cấu trúc wish lùi thì quá khứ)*
+2. **help her friends with math exercises after class**
+3. **in our wireless mouse**
 
 </details>
 
@@ -185,7 +215,7 @@ An interactive prompt for the student to speak with ChatGPT Voice Mode or Gemini
 
 ## 🏆 Daily Scorecard
 - [ ] Part 1 & 2 Complete (1 Star ⭐)
-- [ ] Part 3 & 4 (Phục Thù) Complete (1 Star ⭐)
+- [ ] Part 3 & 4 (Tự luận & Phục thù) Complete (1 Star ⭐)
 - [ ] AI Leo Voice Mission Complete (1 Star ⭐)  
 **Total Stars Earned Today**: ⭐ ⭐ ⭐ / 3
 ```
