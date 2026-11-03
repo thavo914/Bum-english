@@ -46,7 +46,7 @@ graph TD
 | Tuần | Tên Thư Mục | Trọng Tâm Kiến Thức | Mục Tiêu Điểm Thi | Trạng Thái |
 | :---: | :--- | :--- | :---: | :---: |
 | **Tuần 1** | [`week-01-can-thuc-dai-so`](week-01-can-thuc-dai-so/) | Căn bậc hai số học, ĐKXĐ, hằng đẳng thức $\sqrt{A^2}=\|A\|$, rút gọn biểu thức đại số chứa biến $x$, bẫy TRAP-01 & TRAP-02. | **2.0 điểm** | 🟩 Sẵn sàng |
-| **Tuần 2** | `week-02-he-phuong-trinh` | Phương pháp thế và cộng đại số, hệ phương trình đặt ẩn phụ (chứa căn, mẫu thức), giải hệ có tham số. | **1.0 điểm** | ⬜ Kế hoạch |
+| **Tuần 2** | [`week-02-giai-toan-bang-cach-lap-pt-hpt`](week-02-giai-toan-bang-cach-lap-pt-hpt/) | Lập PT & HPT: Ôn Dạng 1 (Năng suất), Dạng 2 (Làm chung - riêng); Học mới Dạng 3 (Quan hệ số $\overline{ab}$) & Dạng 4 (Nội dung hình học, lối đi bao quanh). | **2.0 điểm** | 🟩 Sẵn sàng |
 | **Tuần 3** | `week-03-ham-so-va-do-thi` | Đồ thị hàm số bậc nhất $y = ax+b$, vẽ Parabol $(P): y = ax^2$, tìm tọa độ giao điểm giữa $(d)$ và $(P)$. | **1.5 điểm** | ⬜ Kế hoạch |
 | **Tuần 4** | `week-04-xac-suat-va-thong-ke` | Đọc số liệu bảng tần số ghép nhóm, biểu đồ đoạn thẳng, xác suất cổ điển của biến cố ngẫu nhiên. | **1.0 điểm** | ⬜ Kế hoạch |
 
