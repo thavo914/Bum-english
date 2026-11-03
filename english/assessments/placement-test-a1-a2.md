@@ -16,27 +16,27 @@
 #### Question 1
 My older brother and I ______ big fans of Manchester United.
 - A. is
-- B. am
-- C. are
+- B. am -
+- C. are +
 - D. be
 
 #### Question 2
 Nam usually ______ his homework at 7:30 PM before hopping on Discord with friends.
-- A. finish
-- B. finishes
+- A. finish -
+- B. finishes +
 - C. finishing
 - D. is finish
 
 #### Question 3
 Look at the stream! Phong ______ a boss fight in Elden Ring right now.
-- A. plays
-- B. is playing
+- A. plays -
+- B. is playing + 
 - C. played
 - D. play
 
 #### Question 4
 I'm really tired tonight, so I ______ play another match with you. Sorry!
-- A. can't
+- A. can't +
 - B. shouldn't to
 - C. don't can
 - D. am not
@@ -45,26 +45,26 @@ I'm really tired tonight, so I ______ play another match with you. Sorry!
 Yesterday afternoon, our school football team ______ the final match 3–2!
 - A. win
 - B. wins
-- C. won
+- C. won + 
 - D. winning
 
 #### Question 6
 My best friend loves anime. I gave ______ a cool Demon Slayer poster on his birthday.
 - A. he
 - B. his
-- C. him
+- C. him +
 - D. himself
 
 #### Question 7
 Are there ______ good snacks left in the fridge, or should we go to the convenience store?
-- A. some
-- B. any
+- A. some -
+- B. any + 
 - C. much
 - D. a little
 
 #### Question 8
 Our science club meets every Tuesday ______ 4:15 PM ______ the school lab.
-- A. at / in
+- A. at / in +
 - B. on / at
 - C. in / on
 - D. at / on
@@ -73,14 +73,14 @@ Our science club meets every Tuesday ______ 4:15 PM ______ the school lab.
 My new gaming laptop is much ______ than my old desktop computer.
 - A. fast
 - B. more fast
-- C. faster
-- D. fastest
+- C. faster +
+- D. fastest -
 
 #### Question 10
 Be careful with that glass! You ______ drop it on the floor.
-- A. are going to
+- A. are going to (bum chon) 
 - B. going to
-- C. will to
+- C. will to (cau chon)
 - D. are go to
 
 ---
@@ -91,13 +91,13 @@ Be careful with that glass! You ______ drop it on the floor.
 #### Question 11
 My internet connection is so slow today! The game is ______ and my character won't move.
 - A. shining
-- B. lagging
+- B. lagging +
 - C. flying
 - D. fixing
 
 #### Question 12
 My phone ______ is at 5%. Can I borrow your power bank and cable?
-- A. battery
+- A. battery +
 - B. volume
 - C. screen
 - D. case
@@ -105,13 +105,13 @@ My phone ______ is at 5%. Can I borrow your power bank and cable?
 #### Question 13
 Check the weekly ______ to see which classroom we have English in tomorrow.
 - A. receipt
-- B. timetable
+- B. timetable + schedule
 - C. ticket
 - D. menu
 
 #### Question 14
 Our team needs to ______ hard this Saturday if we want to beat Class 8A.
-- A. practice
+- A. practice + 
 - B. spend
 - C. forget
 - D. break
@@ -120,19 +120,19 @@ Our team needs to ______ hard this Saturday if we want to beat Class 8A.
 I usually ______ at 6:00 AM on weekdays so I don't miss the school bus.
 - A. turn on
 - B. give up
-- C. wake up
+- C. wake up +
 - D. take off
 
 #### Question 16
 That tech YouTuber just reached 1 million ______ because his gear reviews are awesome.
 - A. viewers
 - B. players
-- C. subscribers
+- C. subscribers + 
 - D. classmates
 
 #### Question 17
 During the 15-minute recess, students often run to the school ______ to buy snacks and milk.
-- A. canteen
+- A. canteen + 
 - B. stadium
 - C. museum
 - D. cinema
@@ -140,7 +140,7 @@ During the 15-minute recess, students often run to the school ______ to buy snac
 #### Question 18
 Khoa was super ______ when he unboxed his brand new Nintendo Switch.
 - A. boring
-- B. excited
+- B. excited +
 - C. crowded
 - D. noisy
 
@@ -148,15 +148,15 @@ Khoa was super ______ when he unboxed his brand new Nintendo Switch.
 The school library is always quiet, but the gaming lounge is very ______.
 - A. dark
 - B. cheap
-- C. noisy
+- C. noisy +
 - D. peaceful
 
 #### Question 20
 It’s easy to ______ friends when you join the football club or robotics team.
 - A. take
-- B. make
+- B. make +
 - C. do
-- D. have
+- D. have -
 
 ---
 
@@ -169,14 +169,14 @@ It’s easy to ______ friends when you join the football club or robotics team.
 **Minh**: "Hey Bum, are you free to play Roblox this evening at 8 PM?"  
 **Bum**: "______"
 - A. Yes, I do.
-- B. Sounds great! Count me in.
+- B. Sounds great! Count me in. ?
 - C. I am 14 years old.
-- D. No, it is not my game.
+- D. No, it is not my game. +
 
 #### Question 22
 **Alex**: "Your new headset looks sick! Where did you get it?"  
 **Bum**: "______"
-- A. Thanks! My uncle bought it for my birthday.
+- A. Thanks! My uncle bought it for my birthday. +
 - B. You are welcome.
 - C. I don't feel sick today.
 - D. Yes, it is very bad.
@@ -185,14 +185,14 @@ It’s easy to ______ friends when you join the football club or robotics team.
 **Classmate**: "Do you know what time the history test starts?"  
 **Bum**: "______"
 - A. It's on page 45.
-- B. Right after the morning break, at 9:30 AM.
+- B. Right after the morning break, at 9:30 AM. +
 - C. I like history very much.
 - D. No, history is easy.
 
 #### Question 24
 **Bum**: "Excuse me, can I borrow your blue pen for a minute?"  
 **Friend**: "______"
-- A. Sure, here you go!
+- A. Sure, here you go!  +
 - B. Never mind.
 - C. No, I am fine.
 - D. Nice to meet you.
@@ -201,7 +201,7 @@ It’s easy to ______ friends when you join the football club or robotics team.
 **Leo**: "What do you think about the new Spider-Man movie?"  
 **Bum**: "______"
 - A. I went there yesterday.
-- B. It was amazing, especially the action scenes!
+- B. It was amazing, especially the action scenes! +
 - C. Yes, I can watch TV.
 - D. It is a spider.
 
@@ -218,14 +218,14 @@ It’s easy to ______ friends when you join the football club or robotics team.
 #### Question 26
 When do Nam and Huy have to present their Science project?
 - A. Tonight before dinner
-- B. Tomorrow morning
+- B. Tomorrow morning +
 - C. This weekend
 - D. Tomorrow afternoon
 
 #### Question 27
 What task will Nam do before dinner?
 - A. Write the 5 slides
-- B. Find 2 pictures and upload them to Google Drive
+- B. Find 2 pictures and upload them to Google Drive +
 - C. Present to Mr. Tuan
 - D. Play FC Mobile with Huy
 
@@ -233,7 +233,7 @@ What task will Nam do before dinner?
 What do the two friends plan to do after their voice chat practice?
 - A. Go to a fast-food restaurant
 - B. Study for a history test
-- C. Play 2 rounds of a mobile game
+- C. Play 2 rounds of a mobile game +
 - D. Make a new YouTube video
 
 ---
@@ -254,14 +254,14 @@ What do the two friends plan to do after their voice chat practice?
 Where does the club meet every Thursday?
 - A. In the school canteen
 - B. In the gymnasium
-- C. In Computer Lab 2
+- C. In Computer Lab 2 +
 - D. In the school library
 
 #### Question 30
 According to the notice, what is true about the club?
-- A. Only Grade 9 students with gaming trophies can join.
-- B. Students must bring their own gaming laptops.
-- C. Beginners without experience are welcome to join.
+- A. Only Grade 9 students with gaming trophies can join. 
+- B. Students must bring their own gaming laptops. 
+- C. Beginners without experience are welcome to join. +
 - D. The club meets twice a week on Tuesday and Thursday.
 
 ---
