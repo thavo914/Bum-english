@@ -1,5 +1,5 @@
 ---
-description: Generates a complete 2-file daily lesson (01-knowledge.md and 02-exercises.md) for Bum (14 years old) with exercises aligned to Grade 10 entrance exams and targeted mistake recycling.
+description: Generates a complete 2-file daily lesson (01-knowledge.md and 02-exercises.md) for Bum (14 years old) with exercises aligned to Grade 10 entrance exams, targeted mistake recycling, Linearthinking S-V-O dissection, and Sound-Block Chunking.
 ---
 
 # Workflow: /generate-daily-lesson
@@ -20,7 +20,7 @@ Use this workflow to generate the 2 daily lesson files for any designated day (`
 
 ---
 
-### 🎓 3 Core Principles for Exercise Quality:
+### 🎓 4 Core Principles for Exercise Quality:
 1. **Bám Sát Đề Thi Mẫu Chuẩn Hybrid (Hà Nội & TP.HCM)**:
    - Part 2 và Part 3 phải mô phỏng chính xác cấu trúc đề thi tuyển sinh vào lớp 10 chính thức từ ngân hàng câu hỏi `graduation exam/question-registry.json` (Trắc nghiệm hội thoại đời sống, Biến đổi từ loại `(CAPITALS)`, Tra cứu mục từ điển, Viết lại câu tự luận).
    - Tra cứu câu hỏi mẫu: `& "C:\Users\Admin\AppData\Local\Programs\Python\Python312\python.exe" scripts/query_registry.py --category <dạng> --level A2`.
@@ -31,6 +31,9 @@ Use this workflow to generate the 2 daily lesson files for any designated day (`
 3. **Tránh Trùng Lặp (Context Variety)**:
    - Đảm bảo câu hỏi có ngữ cảnh mới mẻ, thay đổi tình huống giữa các ngày (ví dụ: Day 1 về thói quen buổi sáng, Day 2 về robot dọn phòng & smartwatch, Day 3 về cai doomscrolling, Day 4 về thuyết trình dự án công nghệ, Day 5 về thử thách 24h).
    - Tuyệt đối không sao chép nguyên văn câu mẫu từ phần Knowledge sang phần Bài tập.
+4. **Phương Pháp Linearthinking & Sound-Block Chunking (Tư Duy Tuyến Tính & Ngắt Hơi Nhịp Điệu)**:
+   - **Linearthinking Simplify**: Trong phần Ngữ pháp và Viết lại câu, luôn bóc tách khung cốt lõi `S - V - O` loại bỏ nhiễu, giúp Bum triệt tiêu thói quen dịch từng chữ (word-by-word) từ tiếng Việt.
+   - **Sound-Block Chunking (`/`)**: Mọi câu ví dụ trong phần Word Power và các lời thoại đều được gắn ký hiệu ngắt nhịp `/` để hướng dẫn Bum lấy hơi theo cụm nghĩa nhịp nhàng khi nói.
 
 ---
 
@@ -38,8 +41,8 @@ Use this workflow to generate the 2 daily lesson files for any designated day (`
 For the target week `<N>` and day `<M>`, generate exactly two files:
 ```
 lessons/week-<N>/day-<M>/
-├── 01-knowledge.md      # Definitions, Target words/Word families, Grammar bite & traps, Dialogue
-└── 02-exercises.md      # Word formation/match, Exam-pattern builder, Practical format, Sentence rewrite, Rematch, AI voice mission
+├── 01-knowledge.md      # Definitions, Target words/Word families, S-V-O Grammar bite & traps, Dialogue with Sound Blocks
+└── 02-exercises.md      # Word formation, Exam-pattern builder, Practical format, S-V-O Sentence rewrite, Rematch, AI voice mission
 ```
 
 ---
@@ -54,12 +57,12 @@ Brief 1-sentence friendly intro explaining what the student will learn today.
 
 ---
 
-## 1. Word Power & Word Family Tree (Từ Vựng & Bảng Họ Từ)
+## 1. Word Power & Word Family Tree (Từ Vựng & Bảng Họ Từ) 🌲
 
-| Từ gốc (Base Word) | Phiên âm (IPA) | Nghĩa tiếng Việt | Họ từ liên quan (Word Family) | Ví dụ ngữ cảnh teen |
+| Từ gốc (Base Word) | Phiên âm (IPA) | Nghĩa tiếng Việt | Họ từ liên quan (Word Family) | Ví dụ ngắt nhịp Sound-Block (`/`) |
 | :--- | :---: | :--- | :--- | :--- |
-| **<word 1>** *(v)* | /.../ | <nghĩa> | • **<Noun>**: <nghĩa><br>• **<Adj>**: <nghĩa> | *<Teen example>* |
-| **<word 2>** *(adj)* | /.../ | <nghĩa> | • **<Adv>**: <nghĩa><br>• **<Noun>**: <nghĩa> | ... |
+| **<word 1>** *(v)* | /.../ | <nghĩa> | • **<Noun>**: <nghĩa><br>• **<Adj>**: <nghĩa> | *Eating fresh fruit / every morning / is **healthy** for your brain.* |
+| **<word 2>** *(adj)* | /.../ | <nghĩa> | • **<Adv>**: <nghĩa><br>• **<Noun>**: <nghĩa> | *Bum was **careless** / and lost his game checkpoint / last night.* |
 | **<word 3>** *(n)* | /.../ | <nghĩa> | • **<Adj>**: <nghĩa><br>• **<Opposite Adj>**: <nghĩa> | ... |
 | **<word 4>** *(phr v)* | /.../ | <nghĩa> | • **<Collocation>**: <cụm đi kèm> | ... |
 | **<word 5>** *(adj/v)* | /.../ | <nghĩa> | • **<Derived form>**: <từ phái sinh> | ... |
@@ -71,28 +74,30 @@ Brief 1-sentence friendly intro explaining what the student will learn today.
 
 ---
 
-## 2. Grammar Bite: <Core Grammar Pattern> ⚡
+## 2. Grammar Bite: <Core Grammar Pattern> & Linearthinking Simplify ⚡
 
 Explain the grammar rule in simple, crystal-clear terms with zero academic bloat.
 
-### The Rule Formula:
-- **<Subject>** + **<Grammar Element>** + **<Object/Complement>**
-  - *<Clear Example 1>*
-  - *<Clear Example 2>*
+### 🧠 Linearthinking Simplify (Bóc Tách Khung Xương Sống `S - V - O`):
+- **Khung Cốt Lõi (`S - V - O`)**: `[Chủ ngữ S]` + `[Động từ V]` + `[Tân ngữ O]`
+- **Thành Phần Bổ Bổ Sung**: `[Trạng ngữ thời gian/nơi chốn]` hoặc `[Mệnh đề quan hệ / Cụm giới từ]`
+- *Ví dụ mẫu*:
+  - *Câu đầy đủ*: *"My brother and I / usually play Roblox / in our bedroom / after finishing homework."*
+  - *Khung cốt lõi*: `My brother and I` (S) + `play` (V) + `Roblox` (O).
 
 ### ⚠️ Watch Out! (Bẫy Đề Thi Tuyển Sinh Hay Ra):
 > 💡 **Watch out**: <Chỉ rõ bẫy ngữ pháp thường gặp trong đề thi lớp 10 hoặc lỗi Bum hay mắc, ví dụ: "Sau 'look forward to' bắt buộc là V-ing chứ KHÔNG dùng V-nguyên mẫu! ❌">
 
 ---
 
-## 3. Real-Life Teen Dialogue (Hội Thoại Đời Sống 6-8 Lượt Lời) 🎧
-Đoạn thoại tự nhiên giữa Bum và bạn bè/AI Leo có chiều sâu, tranh luận hoặc đưa lời khuyên:
-- **Bum**: "..."
-- **Leo**: "..."
-- **Bum**: "..."
-- **Leo**: "..."
-- **Bum**: "..."
-- **Leo**: "..."
+## 3. Real-Life Teen Dialogue (Hội Thoại Đời Sống Có Ngắt Nhịp Sound Blocks) 🎧
+Đoạn thoại tự nhiên giữa Bum và bạn bè/AI Leo có ký hiệu ngắt nhịp Sound-Block `/` để Bum luyện phát âm nhịp nhàng:
+- **Bum**: "Hey Leo, / I still feel drowsy / even though I washed my face / five minutes ago."
+- **Leo**: "Did you look at your phone screen / right after waking up, Bum?"
+- **Bum**: "Yeah, guilty! / I wanted to check / my Roblox notifications."
+- **Leo**: "That's a careless habit! / Looking at blue light immediately / makes your eyes exhausted."
+- **Bum**: "Good point. / I'll turn off my phone screen / and do some quick stretching."
+- **Leo**: "Awesome! / A disciplined morning routine / is the first step to victory!"
 ```
 
 *(Nếu là Tuần 1-3: Sử dụng bảng 5 từ đơn giản nguyên bản).*
@@ -125,20 +130,9 @@ Hoàn thành 5 phần thử thách dưới đây để thu thập trọn vẹn 3
 *Chọn đáp án đúng nhất (A, B, C hoặc D) mô phỏng các câu hỏi hội thoại và câu ghép của Đề Hà Nội & TP.HCM:*
 
 #### Question 1 (Đối thoại đời sống)
-Khoa: "Where should I put the extra batteries for the wireless controller?"  
-Bum: "You'd better put them ________ the top drawer."
-- A. at
-- B. in
-- C. to
-- D. on
-
+...
 #### Question 2 (Cụm động từ bẫy)
-Don't forget to ________ the lights and monitor before leaving your room.
-- A. turn off
-- B. look for
-- C. run out of
-- D. pick up
-
+...
 #### Question 3 (Liên từ & Điều kiện)
 ...
 #### Question 4 (Mệnh đề quan hệ / Đại từ)
@@ -162,8 +156,8 @@ Don't forget to ________ the lights and monitor before leaving your room.
 
 ---
 
-## Part 4: Open Sentence Transformation & Rematch (Tự Luận Viết Lại Câu) ✏️
-*Viết lại các câu sau sao cho nghĩa không đổi, sử dụng cấu trúc chuẩn đề thi:*
+## Part 4: Open Sentence Transformation (Tự Luận Viết Lại Câu - Áp Dụng Linearthinking) ✏️
+*Xác định hành động cốt lõi `S - V - O` trước khi biến đổi câu, tuyệt đối không dịch từng từ:*
 
 1. Bum doesn't have a smartwatch, and he really wants to have one.  
    → Bum wishes _______________________________________________________________.
@@ -175,16 +169,17 @@ Don't forget to ________ the lights and monitor before leaving your room.
 
 ---
 
-## Part 5: AI Voice Mission with Leo (Tranh Luận & Phản Xạ Nói 2 Chiều) 🎙️
+## Part 5: AI Voice Mission with Leo (Phản Xạ Tuyến Tính O-R-E-O & Sound Blocks) 🎙️
 
 Mở ChatGPT Voice Mode hoặc Gemini Live và cùng Leo thảo luận về chủ đề hôm nay:
 > 💬 **Your Mission Prompt**:  
 > *"Hey Leo! Today I'm learning about building smart daily habits and managing screen time. Challenge me by asking why playing games late at night is bad, and I will persuade you with my new daily schedule!"*
 
-**Speaking Checklist**:
+**Speaking Checklist (Áp Dụng Sound-Block & O-R-E-O)**:
+- [ ] Trả lời theo trục tuyến tính: **Trực diện (Opinion)** ➔ **Lý do (Reason)** ➔ **Ví dụ cá nhân (Example)**.
+- [ ] Ngắt hơi theo các cụm âm thanh Sound Blocks (`/`), không đọc rời rạc từng từ.
 - [ ] Dùng ít nhất 2 từ trong bảng Word Power (*healthy, routine, convenient, alert, habit*).
 - [ ] Dùng cấu trúc ngữ pháp hôm nay (*"I wish...", "I'm looking forward to..."*).
-- [ ] Phản hồi ít nhất 3 lượt đối đáp bằng tiếng Anh cùng Leo.
 
 ---
 

@@ -39,6 +39,11 @@ english/
 │   ├── MISTAKE_LOG.md
 │   └── placement-test-a1-a2.md
 │
+├── documents/                       # Comprehensive methodology guides (Linearthinking & Sound-Block Chunking)
+│   ├── README.md
+│   ├── 01-linearthinking-comprehensive-guide.md
+│   └── 02-sound-block-chunking-comprehensive-guide.md
+│
 └── flashcards/                      # Vocabulary flashcard decks
 ```
 
