@@ -50,6 +50,18 @@
 1. Tìm giá trị đại diện của từng nhóm thời gian.
 2. Tính tần số tương đối của mỗi nhóm và cho biết có bao nhiêu phần trăm học sinh hoàn thành bài **dưới $30$ phút**?
 
+**Bài 2.2 (Trích Đề Tham Khảo Tuyển Sinh Lớp 10 Hà Nội 2025 – Đề số 11)**:
+> 📌 **Nguồn**: [`de-tham-khao-thi-vao-10-mon-toan-ha-noi-nam-2025-de-so-11`](../../exams/md/de-tham-khao-thi-vao-10-mon-toan-ha-noi-nam-2025-de-so-11-1747019276.md) – Câu 1.1.
+
+Cân nặng của $40$ học sinh lớp 9A (đơn vị: kilogam) được ghép thành $5$ nhóm trong bảng tần số ghép nhóm sau:
+
+| Nhóm cân nặng (kg) | $[50; 55)$ | $[55; 60)$ | $[60; 65)$ | $[65; 70)$ | $[70; 75)$ |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Tần số ($n$)** | $5$ | $7$ | $10$ | $13$ | $5$ |
+
+1. Tính tần số tương đối ghép nhóm của nhóm $[50; 55)$.
+2. Nhóm cân nặng nào chiếm tỉ lệ cao nhất và tần số tương đối của nhóm đó là bao nhiêu?
+
 ---
 
 ## 🔑 Đáp Án Chi Tiết
@@ -75,4 +87,10 @@
   2. Tần số tương đối ($N = 40$):
      - $[0; 15)$: $20\%$; $[15; 30)$: $37{,}5\%$; $[30; 45)$: $30\%$; $[45; 60)$: $12{,}5\%$.
      - Tỉ lệ học sinh hoàn thành dưới $30$ phút (gồm nhóm $[0; 15)$ và $[15; 30)$): $20\% + 37{,}5\% = \mathbf{57{,}5\%}$.
+
+- **Bài 2.2 (Đề Hà Nội 2025 – Đề số 11)**:
+  1. Tổng số học sinh $N = 5 + 7 + 10 + 13 + 5 = 40$.  
+     Tần số tương đối ghép nhóm của nhóm $[50; 55)$ là: $\dfrac{5}{40} \times 100\% = \mathbf{12{,}5\%}$.
+  2. Nhóm chiếm tỉ lệ cao nhất là **$[65; 70)$** (vì có tần số lớn nhất $n = 13$).  
+     Tần số tương đối của nhóm này là: $\dfrac{13}{40} \times 100\% = \mathbf{32{,}5\%}$.
 </details>

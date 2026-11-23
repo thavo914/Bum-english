@@ -39,6 +39,16 @@ $$
 1. Tính giá trị của biểu thức $A$ khi $x = 9$. *(1★)*
 2. Rút gọn biểu thức $B$. *(2★)*
 
+**Bài 2.2 (Trích Đề Tham Khảo Tuyển Sinh Lớp 10 Hà Nội 2025 – Đề số 10)**:
+> 📌 **Nguồn**: [`de-tham-khao-thi-vao-10-mon-toan-ha-noi-nam-2025-de-so-10`](../../exams/md/de-tham-khao-thi-vao-10-mon-toan-ha-noi-nam-2025-de-so-10-1746432567.md) – Câu 2 (ý 1 & 2).
+
+Cho hai biểu thức:
+$$
+A = \dfrac{\sqrt{x} - 1}{\sqrt{x} - 3} \quad \text{và} \quad B = \dfrac{2\sqrt{x}}{\sqrt{x} - 2} - \dfrac{\sqrt{x} + 2}{\sqrt{x} - 3} + \dfrac{6\sqrt{x} - 8}{x - 5\sqrt{x} + 6} \quad (\text{với } x \ge 0, x \ne 4, x \ne 9)
+$$
+1. Tính giá trị của $A$ khi $x = 16$. *(1★)*
+2. Chứng minh $B = \dfrac{\sqrt{x} + 2}{\sqrt{x} - 3}$. *(2★)*
+
 ---
 
 ## 🔑 Đáp Án Chi Tiết
@@ -61,5 +71,18 @@ $$
      $$
      $$
      = \dfrac{x + \sqrt{x} - 2\sqrt{x} + 2 - 2}{(\sqrt{x} - 1)(\sqrt{x} + 1)} = \dfrac{x - \sqrt{x}}{(\sqrt{x} - 1)(\sqrt{x} + 1)} = \dfrac{\sqrt{x}(\sqrt{x} - 1)}{(\sqrt{x} - 1)(\sqrt{x} + 1)} = \mathbf{\dfrac{\sqrt{x}}{\sqrt{x} + 1}}
+     $$
+
+- **Bài 2.2 (Đề Hà Nội 2025 – Đề số 10)**:
+  1. Thay $x = 16$ (thỏa mãn ĐKXĐ) vào $A$:
+     $$
+     A = \dfrac{\sqrt{16} - 1}{\sqrt{16} - 3} = \dfrac{4 - 1}{4 - 3} = \mathbf{3}
+     $$
+  2. Với $x \ge 0, x \ne 4, x \ne 9$, phân tích $x - 5\sqrt{x} + 6 = (\sqrt{x} - 2)(\sqrt{x} - 3)$:
+     $$
+     B = \dfrac{2\sqrt{x}(\sqrt{x} - 3) - (\sqrt{x} + 2)(\sqrt{x} - 2) + (6\sqrt{x} - 8)}{(\sqrt{x} - 2)(\sqrt{x} - 3)}
+     $$
+     $$
+     = \dfrac{2x - 6\sqrt{x} - (x - 4) + 6\sqrt{x} - 8}{(\sqrt{x} - 2)(\sqrt{x} - 3)} = \dfrac{x - 4}{(\sqrt{x} - 2)(\sqrt{x} - 3)} = \dfrac{(\sqrt{x} - 2)(\sqrt{x} + 2)}{(\sqrt{x} - 2)(\sqrt{x} - 3)} = \mathbf{\dfrac{\sqrt{x} + 2}{\sqrt{x} - 3}} \text{ (đpcm)}
      $$
 </details>
