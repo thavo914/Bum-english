@@ -48,6 +48,8 @@
 ### 🟠 Level 3 – Vận Dụng Đề Thi Vào 10
 **Bài 3.1**: Một canô chạy xuôi dòng từ A đến B rồi chạy ngược dòng từ B về A hết tất cả $4\text{ giờ}$. Tính vận tốc của canô khi nước yên lặng, biết rằng quãng sông $AB$ dài $30\text{ km}$ và vận tốc dòng nước là $4\text{ km/h}$.
 
+**Bài 3.2 (Daily Task)**: Một tàu du lịch chạy xuôi dòng từ bến A đến bến B cách nhau $48\text{ km}$, sau đó nghỉ tại bến B $30$ phút rồi quay ngược dòng từ B về A. Tổng thời gian kể từ lúc xuất phát đến khi về lại bến A là $5\text{ giờ } 30\text{ phút}$. Tính vận tốc riêng của tàu du lịch, biết vận tốc dòng nước là $4\text{ km/h}$.
+
 ### 🔴 Level 4 – Vận Dụng Cao
 **Bài 4.1**: Quãng đường một canô đi xuôi dòng trong $4\text{ giờ}$ bằng $2{,}4$ lần quãng đường canô đi ngược dòng trong $2\text{ giờ}$. Hỏi vận tốc canô khi xuôi dòng là bao nhiêu, biết rằng vận tốc canô khi nước yên tĩnh là $15\text{ km/h}$?
 
@@ -81,6 +83,13 @@ Một bạn học sinh giải **Bài 2.1** như sau:
   - PT: $\dfrac{30}{x + 4} + \dfrac{30}{x - 4} = 4 \iff 60x = 4(x^2 - 16) \iff x^2 - 15x - 16 = 0 \iff (x - 16)(x + 1) = 0$.
   - Giải ra $x = 16$ (TMĐK), $x = -1$ (Loại).
   - **Kết luận**: Vận tốc canô khi nước yên lặng là **$16\text{ km/h}$**.
+
+- **Bài 3.2 (Daily Task)**:
+  - Thời gian tàu thực chạy (không tính $30$ phút nghỉ): $5\text{ giờ } 30\text{ phút} - 30\text{ phút} = 5\text{ giờ}$.
+  - Gọi vận tốc riêng của tàu du lịch là $x\text{ (km/h)}$ ($x > 4$).
+  - PT: $\dfrac{48}{x + 4} + \dfrac{48}{x - 4} = 5 \iff 96x = 5(x^2 - 16) \iff 5x^2 - 96x - 80 = 0$.
+  - Tính $\Delta' = 48^2 - 5 \cdot (-80) = 2704 = 52^2 \implies x_1 = \dfrac{48 + 52}{5} = 20$ (TMĐK); $x_2 = -\dfrac{4}{5}$ (Loại).
+  - **Kết luận**: Vận tốc riêng của tàu du lịch là **$20\text{ km/h}$**.
 
 - **Bài 4.1**:
   - Gọi vận tốc dòng nước là $x\text{ (km/h)}$ ($0 < x < 15$).

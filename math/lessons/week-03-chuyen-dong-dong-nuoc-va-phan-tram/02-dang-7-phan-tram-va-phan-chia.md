@@ -51,6 +51,11 @@ Hỏi **số tiền chênh lệch** giữa giá bán niêm yết với giá bán
 
 **Bài 3.2**: Năm ngoái, hai đơn vị sản xuất nông nghiệp thu hoạch được $600$ tấn thóc. Năm nay, đơn vị thứ nhất làm vượt mức $10\%$, đơn vị thứ hai làm vượt mức $20\%$ so với năm ngoái. Do đó, cả hai đơn vị thu hoạch được $685$ tấn thóc. Hỏi năm ngoái, mỗi đơn vị đã thu hoạch được bao nhiêu tấn thóc?
 
+**Bài 3.3 (Daily Task – Đề tham khảo Hà Nội 2025 – Đề 5)**:  
+> 📌 **Nguồn**: [`de-tham-khao-thi-vao-10-mon-toan-ha-noi-nam-2025-de-so-5`](../../exams/md/de-tham-khao-thi-vao-10-mon-toan-ha-noi-nam-2025-de-so-5-1743412970.md) – Câu 3.1.
+
+Một trường THCS tổ chức cho $250$ người bao gồm giáo viên và học sinh đi tham quan khu du lịch Đảo Ngọc Xanh. Biết giá vé vào cổng của một giáo viên là $80\,000$ đồng, vé vào cổng của một học sinh là $60\,000$ đồng. Nhà trường tổ chức đi vào đúng dịp Khai trương nên được giảm giá $5\%$ cho mỗi vé vào cổng, vì vậy nhà trường chỉ phải trả tổng số tiền là $14\,535\,000$ đồng. Hỏi có bao nhiêu giáo viên và học sinh của trường đi tham quan?
+
 ### 🔴 Level 4 – Vận Dụng Cao
 **Bài 4.1**: Tìm số học sinh của hai lớp 8A và 8B, biết rằng nếu chuyển $3$ học sinh từ lớp 8A sang lớp 8B thì số học sinh hai lớp bằng nhau; nếu chuyển $5$ học sinh từ lớp 8B sang lớp 8A thì số học sinh lớp 8B bằng $\dfrac{11}{19}$ số học sinh lớp 8A.
 
@@ -80,6 +85,13 @@ Hỏi **số tiền chênh lệch** giữa giá bán niêm yết với giá bán
   - Gọi sản lượng năm ngoái 2 đơn vị là $x, y$ (tấn; $0 < x, y < 600$).
   - Hệ PT: $\begin{cases} x + y = 600 \\ 1{,}1x + 1{,}2y = 685 \end{cases} \implies y = 250, x = 350$ (TMĐK).
   - **Kết luận**: Đơn vị 1 thu **$350$ tấn**, đơn vị 2 thu **$250$ tấn**.
+
+- **Bài 3.3 (Daily Task – Đề Hà Nội 2025)**:
+  - Gọi số giáo viên là $x$, số học sinh là $y$ ($x, y \in \mathbb{N}^*; x, y < 250$).
+  - Tổng số tiền vé trước khi giảm giá $5\%$ (còn $95\%$): $14\,535\,000 : 0{,}95 = 15\,300\,000$ (đồng).
+  - Hệ PT: $\begin{cases} x + y = 250 \\ 80\,000x + 60\,000y = 15\,300\,000 \end{cases} \iff \begin{cases} x + y = 250 \\ 4x + 3y = 765 \end{cases}$.
+  - Nhân PT(1) với $3$: $3x + 3y = 750$, trừ theo vế cho PT(2) được: $x = 15$ (TMĐK) $\implies y = 235$ (TMĐK).
+  - **Kết luận**: Có **$15$ giáo viên** và **$235$ học sinh** đi tham quan.
 
 - **Bài 4.1**:
   - Gọi số HS lớp 8A là $x$, 8B là $y$ ($x, y \in \mathbb{N}^*; x > 3, y > 5$).
